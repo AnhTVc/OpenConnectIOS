@@ -33,4 +33,4 @@ $ git clone https://github.com/AnhTVc/OpenConnectIOS.git
     NSString *port  = @"[port connect]";
 ```
 ### Contact
-if you are interested, contact me [skype](tranvietanh.hust@gmail.com) or [email] (tranvietanh.hust@gmail.com)
+if you are interested, contact me [skype](tranvietanh.hust@gmail.com) or [email](tranvietanh.hust@gmail.com)
