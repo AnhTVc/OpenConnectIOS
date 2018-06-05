@@ -1,0 +1,13 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+
+Name: openconnect
+Description: OpenConnect VPN client
+Version: 6.00
+Requires.private:  zlib openssl    libxml-2.0
+Libs: -L${libdir} -lopenconnect
+Libs.private: 
+Cflags: -I${includedir}

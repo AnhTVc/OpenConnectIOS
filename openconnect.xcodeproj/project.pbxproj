@@ -1,0 +1,1000 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6125DA691F41A20D007198DE /* Wrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6125DA681F41A20D007198DE /* Wrapper.m */; };
+		6125DA6C1F41A470007198DE /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6125DA6B1F41A470007198DE /* libcrypto.a */; };
+		6125DA6E1F41A47C007198DE /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6125DA6D1F41A47C007198DE /* libssl.a */; };
+		61427E041EBDF6EF0032AB64 /* tcp.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 61427E031EBDF6EF0032AB64 /* tcp.ovpn */; };
+		61427E061EBDF73B0032AB64 /* pass.txt in Resources */ = {isa = PBXBuildFile; fileRef = 61427E051EBDF73B0032AB64 /* pass.txt */; };
+		61427E081EBE01A20032AB64 /* ca.file in Resources */ = {isa = PBXBuildFile; fileRef = 61427E071EBE01A20032AB64 /* ca.file */; };
+		61427E0A1EBE02F50032AB64 /* cert.file in Resources */ = {isa = PBXBuildFile; fileRef = 61427E091EBE02F50032AB64 /* cert.file */; };
+		614A3D291EEEECA20095D177 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 614A3D281EEEECA20095D177 /* LaunchScreen.storyboard */; };
+		6159E10C1EEE727600F3DD6E /* udp.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 6159E10B1EEE727600F3DD6E /* udp.ovpn */; };
+		6159E1171EEE738300F3DD6E /* PacketTunnelProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6159E1161EEE738300F3DD6E /* PacketTunnelProvider.m */; };
+		6159E11B1EEE738300F3DD6E /* NEPacketTunnelVPNDemoTunnel.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6159E1111EEE738200F3DD6E /* NEPacketTunnelVPNDemoTunnel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6159E1211EEE73A200F3DD6E /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6159E1201EEE73A200F3DD6E /* NetworkExtension.framework */; };
+		6159E1221EEE73AC00F3DD6E /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6159E1201EEE73A200F3DD6E /* NetworkExtension.framework */; };
+		615B2BCF1EEEE94F00B77194 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615B2BCE1EEEE94F00B77194 /* Storyboard.storyboard */; };
+		616503031EEF89110077E101 /* TunnelUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 616503021EEF89110077E101 /* TunnelUtil.m */; };
+		616503041EEF89110077E101 /* TunnelUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 616503021EEF89110077E101 /* TunnelUtil.m */; };
+		6169036B207A7899004FBE9F /* library.c in Sources */ = {isa = PBXBuildFile; fileRef = 6169036A207A7899004FBE9F /* library.c */; };
+		6169036D207A7909004FBE9F /* http.c in Sources */ = {isa = PBXBuildFile; fileRef = 6169036C207A78FA004FBE9F /* http.c */; };
+		6169036F207A7939004FBE9F /* script.c in Sources */ = {isa = PBXBuildFile; fileRef = 6169036E207A792F004FBE9F /* script.c */; };
+		61690371207A7A66004FBE9F /* ntlm.c in Sources */ = {isa = PBXBuildFile; fileRef = 61690370207A7A57004FBE9F /* ntlm.c */; };
+		61690374207A7AA6004FBE9F /* openssl.c in Sources */ = {isa = PBXBuildFile; fileRef = 61690373207A7AA0004FBE9F /* openssl.c */; };
+		61690376207A7ACE004FBE9F /* auth.c in Sources */ = {isa = PBXBuildFile; fileRef = 61690375207A7AC4004FBE9F /* auth.c */; };
+		61690379207A7B01004FBE9F /* ssl.c in Sources */ = {isa = PBXBuildFile; fileRef = 61690377207A7AFB004FBE9F /* ssl.c */; };
+		6169037D207A7B5C004FBE9F /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = 6169037C207A7B52004FBE9F /* version.c */; };
+		6169037E207A7B5C004FBE9F /* tun.c in Sources */ = {isa = PBXBuildFile; fileRef = 6169037B207A7B4E004FBE9F /* tun.c */; };
+		61690381207A7BC1004FBE9F /* digest.c in Sources */ = {isa = PBXBuildFile; fileRef = 61690380207A7BBA004FBE9F /* digest.c */; };
+		61690382207A7BC1004FBE9F /* dtls.c in Sources */ = {isa = PBXBuildFile; fileRef = 6169037F207A7BBA004FBE9F /* dtls.c */; };
+		61690384207A7C04004FBE9F /* cstp.c in Sources */ = {isa = PBXBuildFile; fileRef = 61690383207A7BFB004FBE9F /* cstp.c */; };
+		61690386207A7C33004FBE9F /* mainloop.c in Sources */ = {isa = PBXBuildFile; fileRef = 61690385207A7C2B004FBE9F /* mainloop.c */; };
+		616E03501F3DB6EF000F42F6 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 616E034F1F3DB6EF000F42F6 /* bg.png */; };
+		617AE7CF1F3AE5C2009808D3 /* client-ios.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 617AE7CE1F3AE5C2009808D3 /* client-ios.ovpn */; };
+		617BBCFE1F623DD100B26C67 /* PacketTunnelProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 617BBCFD1F623DD100B26C67 /* PacketTunnelProvider.m */; };
+		617BBD021F623DD100B26C67 /* PacketTunnel.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 617BBCF81F623DD100B26C67 /* PacketTunnel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		618A9BAF2077323E00A73A27 /* OpenVPNPacketFlowBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = 618A9BAD2077323E00A73A27 /* OpenVPNPacketFlowBridge.mm */; };
+		618A9BB22077324E00A73A27 /* OpenVPNError.m in Sources */ = {isa = PBXBuildFile; fileRef = 618A9BB12077324D00A73A27 /* OpenVPNError.m */; };
+		618A9BB52077326C00A73A27 /* OpenVPNPacket.mm in Sources */ = {isa = PBXBuildFile; fileRef = 618A9BB42077326C00A73A27 /* OpenVPNPacket.mm */; };
+		618A9BBA20774D4500A73A27 /* OpenAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 618A9BB920774D4500A73A27 /* OpenAdapter.m */; };
+		619300501F62DC9900BBDD5B /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6159E1201EEE73A200F3DD6E /* NetworkExtension.framework */; };
+		61A13C441F3E077000999F37 /* Belgium.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 61A13C431F3E077000999F37 /* Belgium.ovpn */; };
+		61A13C461F3E972E00999F37 /* pass-vpnexpress.txt in Resources */ = {isa = PBXBuildFile; fileRef = 61A13C451F3E972E00999F37 /* pass-vpnexpress.txt */; };
+		61A4B0471F39A47800300331 /* u.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 61A4B0461F39A47800300331 /* u.ovpn */; };
+		61A815A420786B2000CEC3C5 /* OpenVPNNetworkSettingsBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A815A320786B2000CEC3C5 /* OpenVPNNetworkSettingsBuilder.m */; };
+		61C2F8BA1F406E2E0063C4C8 /* Austria.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 61C2F8B91F406E2E0063C4C8 /* Austria.ovpn */; };
+		61C4918A207A71EB009AA065 /* depcomp in Resources */ = {isa = PBXBuildFile; fileRef = 61C49168207A71E8009AA065 /* depcomp */; };
+		61C4918C207A71EB009AA065 /* build-all.sh in Resources */ = {isa = PBXBuildFile; fileRef = 61C4916A207A71E9009AA065 /* build-all.sh */; };
+		61C49199207A71EB009AA065 /* build-openssl.sh in Resources */ = {isa = PBXBuildFile; fileRef = 61C49179207A71E9009AA065 /* build-openssl.sh */; };
+		61C4919B207A71EB009AA065 /* build-ios-arm64.sh in Resources */ = {isa = PBXBuildFile; fileRef = 61C4917B207A71EA009AA065 /* build-ios-arm64.sh */; };
+		61C4919D207A71EB009AA065 /* autogen.sh in Resources */ = {isa = PBXBuildFile; fileRef = 61C4917D207A71EA009AA065 /* autogen.sh */; };
+		61C491A0207A71EB009AA065 /* build-ios.sh in Resources */ = {isa = PBXBuildFile; fileRef = 61C49181207A71EA009AA065 /* build-ios.sh */; };
+		61C491A5207A71EB009AA065 /* build-ios-armv7.sh in Resources */ = {isa = PBXBuildFile; fileRef = 61C49186207A71EA009AA065 /* build-ios-armv7.sh */; };
+		61C491A9207A7306009AA065 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 61C491A8207A7306009AA065 /* libstdc++.tbd */; };
+		D9EA52131827295000CB83C9 /* VPNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EA52121827295000CB83C9 /* VPNViewController.m */; };
+		D9F187501826F67800FE27F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F1874F1826F67800FE27F1 /* Foundation.framework */; };
+		D9F187521826F67800FE27F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F187511826F67800FE27F1 /* CoreGraphics.framework */; };
+		D9F187541826F67800FE27F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F187531826F67800FE27F1 /* UIKit.framework */; };
+		D9F1875A1826F67800FE27F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9F187581826F67800FE27F1 /* InfoPlist.strings */; };
+		D9F1875C1826F67800FE27F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F1875B1826F67800FE27F1 /* main.m */; };
+		D9F187601826F67800FE27F1 /* VPNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F1875F1826F67800FE27F1 /* VPNAppDelegate.m */; };
+		D9F187621826F67800FE27F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F187611826F67800FE27F1 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6159E1191EEE738300F3DD6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9F187441826F67800FE27F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6159E1101EEE738200F3DD6E;
+			remoteInfo = NEPacketTunnelVPNDemoTunnel;
+		};
+		617BBD001F623DD100B26C67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9F187441826F67800FE27F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 617BBCF71F623DD100B26C67;
+			remoteInfo = PacketTunnel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6159E11F1EEE738300F3DD6E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				617BBD021F623DD100B26C67 /* PacketTunnel.appex in Embed App Extensions */,
+				6159E11B1EEE738300F3DD6E /* NEPacketTunnelVPNDemoTunnel.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6125DA671F41A20D007198DE /* Wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wrapper.h; sourceTree = "<group>"; };
+		6125DA681F41A20D007198DE /* Wrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wrapper.m; sourceTree = "<group>"; };
+		6125DA6A1F41A437007198DE /* openconnect-internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "openconnect-internal.h"; sourceTree = "<group>"; };
+		6125DA6B1F41A470007198DE /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = lib/libcrypto.a; sourceTree = "<group>"; };
+		6125DA6D1F41A47C007198DE /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = lib/libssl.a; sourceTree = "<group>"; };
+		6125DA6F1F41A484007198DE /* libopenconnect.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopenconnect.a; path = lib/libopenconnect.a; sourceTree = "<group>"; };
+		61427E031EBDF6EF0032AB64 /* tcp.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tcp.ovpn; sourceTree = "<group>"; };
+		61427E051EBDF73B0032AB64 /* pass.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pass.txt; sourceTree = "<group>"; };
+		61427E071EBE01A20032AB64 /* ca.file */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ca.file; sourceTree = "<group>"; };
+		61427E091EBE02F50032AB64 /* cert.file */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cert.file; sourceTree = "<group>"; };
+		614850101ECFF8340055EF74 /* openvpn.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = openvpn.entitlements; sourceTree = "<group>"; };
+		614A3D281EEEECA20095D177 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6159E10B1EEE727600F3DD6E /* udp.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = udp.ovpn; sourceTree = "<group>"; };
+		6159E1111EEE738200F3DD6E /* NEPacketTunnelVPNDemoTunnel.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NEPacketTunnelVPNDemoTunnel.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6159E1141EEE738300F3DD6E /* NEPacketTunnelVPNDemoTunnel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NEPacketTunnelVPNDemoTunnel.entitlements; sourceTree = "<group>"; };
+		6159E1151EEE738300F3DD6E /* PacketTunnelProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketTunnelProvider.h; sourceTree = "<group>"; };
+		6159E1161EEE738300F3DD6E /* PacketTunnelProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PacketTunnelProvider.m; sourceTree = "<group>"; };
+		6159E1181EEE738300F3DD6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6159E1201EEE73A200F3DD6E /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		615B2BCE1EEEE94F00B77194 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		616503011EEF89110077E101 /* TunnelUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TunnelUtil.h; sourceTree = "<group>"; };
+		616503021EEF89110077E101 /* TunnelUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TunnelUtil.m; sourceTree = "<group>"; };
+		6169036A207A7899004FBE9F /* library.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = library.c; sourceTree = "<group>"; };
+		6169036C207A78FA004FBE9F /* http.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = http.c; sourceTree = "<group>"; };
+		6169036E207A792F004FBE9F /* script.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = script.c; sourceTree = "<group>"; };
+		61690370207A7A57004FBE9F /* ntlm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ntlm.c; sourceTree = "<group>"; };
+		61690372207A7A8D004FBE9F /* script.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = script.c; path = "../../openconnect-core/script.c"; sourceTree = "<group>"; };
+		61690373207A7AA0004FBE9F /* openssl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = openssl.c; sourceTree = "<group>"; };
+		61690375207A7AC4004FBE9F /* auth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = auth.c; sourceTree = "<group>"; };
+		61690377207A7AFB004FBE9F /* ssl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ssl.c; sourceTree = "<group>"; };
+		6169037B207A7B4E004FBE9F /* tun.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tun.c; sourceTree = "<group>"; };
+		6169037C207A7B52004FBE9F /* version.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = version.c; sourceTree = "<group>"; };
+		6169037F207A7BBA004FBE9F /* dtls.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dtls.c; sourceTree = "<group>"; };
+		61690380207A7BBA004FBE9F /* digest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = digest.c; sourceTree = "<group>"; };
+		61690383207A7BFB004FBE9F /* cstp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cstp.c; sourceTree = "<group>"; };
+		61690385207A7C2B004FBE9F /* mainloop.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mainloop.c; sourceTree = "<group>"; };
+		616E034F1F3DB6EF000F42F6 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		617AE7CE1F3AE5C2009808D3 /* client-ios.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "client-ios.ovpn"; sourceTree = "<group>"; };
+		617BBCF81F623DD100B26C67 /* PacketTunnel.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PacketTunnel.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		617BBCFB1F623DD100B26C67 /* PacketTunnel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PacketTunnel.entitlements; sourceTree = "<group>"; };
+		617BBCFC1F623DD100B26C67 /* PacketTunnelProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketTunnelProvider.h; sourceTree = "<group>"; };
+		617BBCFD1F623DD100B26C67 /* PacketTunnelProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PacketTunnelProvider.m; sourceTree = "<group>"; };
+		617BBCFF1F623DD100B26C67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		618A9BA9207724ED00A73A27 /* version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = version.c; path = include/version.c; sourceTree = SOURCE_ROOT; };
+		618A9BAB2077250A00A73A27 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = include/config.h; sourceTree = SOURCE_ROOT; };
+		618A9BAD2077323E00A73A27 /* OpenVPNPacketFlowBridge.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenVPNPacketFlowBridge.mm; sourceTree = "<group>"; };
+		618A9BAE2077323E00A73A27 /* OpenVPNPacketFlowBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenVPNPacketFlowBridge.h; sourceTree = "<group>"; };
+		618A9BB02077324D00A73A27 /* OpenVPNError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenVPNError.h; sourceTree = "<group>"; };
+		618A9BB12077324D00A73A27 /* OpenVPNError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenVPNError.m; sourceTree = "<group>"; };
+		618A9BB32077326C00A73A27 /* OpenVPNPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenVPNPacket.h; sourceTree = "<group>"; };
+		618A9BB42077326C00A73A27 /* OpenVPNPacket.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenVPNPacket.mm; sourceTree = "<group>"; };
+		618A9BB62077329600A73A27 /* OpenVPNAdapterPacketFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenVPNAdapterPacketFlow.h; sourceTree = "<group>"; };
+		618A9BB820774D4500A73A27 /* OpenAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenAdapter.h; sourceTree = "<group>"; };
+		618A9BB920774D4500A73A27 /* OpenAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenAdapter.m; sourceTree = "<group>"; };
+		61A13C431F3E077000999F37 /* Belgium.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Belgium.ovpn; sourceTree = "<group>"; };
+		61A13C451F3E972E00999F37 /* pass-vpnexpress.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pass-vpnexpress.txt"; sourceTree = "<group>"; };
+		61A4B0461F39A47800300331 /* u.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = u.ovpn; sourceTree = "<group>"; };
+		61A815A220786B2000CEC3C5 /* OpenVPNNetworkSettingsBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenVPNNetworkSettingsBuilder.h; sourceTree = "<group>"; };
+		61A815A320786B2000CEC3C5 /* OpenVPNNetworkSettingsBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenVPNNetworkSettingsBuilder.m; sourceTree = "<group>"; };
+		61C2F8B91F406E2E0063C4C8 /* Austria.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Austria.ovpn; sourceTree = "<group>"; };
+		61C49168207A71E8009AA065 /* depcomp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = depcomp; path = "../../../../../../../usr/local/Cellar/automake/1.16.1/share/automake-1.16/depcomp"; sourceTree = "<group>"; };
+		61C49169207A71E8009AA065 /* cstp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cstp.c; path = core/cstp.c; sourceTree = SOURCE_ROOT; };
+		61C4916A207A71E9009AA065 /* build-all.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "build-all.sh"; path = "core/build-all.sh"; sourceTree = SOURCE_ROOT; };
+		61C4916B207A71E9009AA065 /* library.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = library.c; path = core/library.c; sourceTree = SOURCE_ROOT; };
+		61C4916C207A71E9009AA065 /* tun.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tun.c; path = core/tun.c; sourceTree = SOURCE_ROOT; };
+		61C4916E207A71E9009AA065 /* sspi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sspi.c; path = core/sspi.c; sourceTree = SOURCE_ROOT; };
+		61C4916F207A71E9009AA065 /* xml.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xml.c; path = core/xml.c; sourceTree = SOURCE_ROOT; };
+		61C49170207A71E9009AA065 /* auth.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = auth.c; path = core/auth.c; sourceTree = SOURCE_ROOT; };
+		61C49173207A71E9009AA065 /* gssapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = gssapi.c; path = core/gssapi.c; sourceTree = SOURCE_ROOT; };
+		61C49174207A71E9009AA065 /* ssl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ssl.c; path = core/ssl.c; sourceTree = SOURCE_ROOT; };
+		61C49175207A71E9009AA065 /* ntlm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ntlm.c; path = core/ntlm.c; sourceTree = SOURCE_ROOT; };
+		61C49176207A71E9009AA065 /* openconnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = openconnect.h; path = core/openconnect.h; sourceTree = SOURCE_ROOT; };
+		61C49177207A71E9009AA065 /* script.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = script.c; path = core/script.c; sourceTree = SOURCE_ROOT; };
+		61C49179207A71E9009AA065 /* build-openssl.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "build-openssl.sh"; path = "core/build-openssl.sh"; sourceTree = SOURCE_ROOT; };
+		61C4917A207A71E9009AA065 /* digest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = digest.c; path = core/digest.c; sourceTree = SOURCE_ROOT; };
+		61C4917B207A71EA009AA065 /* build-ios-arm64.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "build-ios-arm64.sh"; path = "core/build-ios-arm64.sh"; sourceTree = SOURCE_ROOT; };
+		61C4917D207A71EA009AA065 /* autogen.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = autogen.sh; path = core/autogen.sh; sourceTree = SOURCE_ROOT; };
+		61C4917E207A71EA009AA065 /* openconnect-internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "openconnect-internal.h"; path = "core/openconnect-internal.h"; sourceTree = SOURCE_ROOT; };
+		61C4917F207A71EA009AA065 /* mainloop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mainloop.c; path = core/mainloop.c; sourceTree = SOURCE_ROOT; };
+		61C49180207A71EA009AA065 /* compat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = compat.c; path = core/compat.c; sourceTree = SOURCE_ROOT; };
+		61C49181207A71EA009AA065 /* build-ios.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "build-ios.sh"; path = "core/build-ios.sh"; sourceTree = SOURCE_ROOT; };
+		61C49183207A71EA009AA065 /* version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = version.c; path = core/version.c; sourceTree = SOURCE_ROOT; };
+		61C49184207A71EA009AA065 /* http.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = http.c; path = core/http.c; sourceTree = SOURCE_ROOT; };
+		61C49185207A71EA009AA065 /* openssl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = openssl.c; path = core/openssl.c; sourceTree = SOURCE_ROOT; };
+		61C49186207A71EA009AA065 /* build-ios-armv7.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "build-ios-armv7.sh"; path = "core/build-ios-armv7.sh"; sourceTree = SOURCE_ROOT; };
+		61C49187207A71EA009AA065 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = core/main.c; sourceTree = SOURCE_ROOT; };
+		61C49188207A71EA009AA065 /* dtls.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dtls.c; path = core/dtls.c; sourceTree = SOURCE_ROOT; };
+		61C49189207A71EB009AA065 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = core/config.h; sourceTree = SOURCE_ROOT; };
+		61C491A8207A7306009AA065 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		61C491AA207A7661009AA065 /* openconnectmain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = openconnectmain.h; sourceTree = "<group>"; };
+		61C491AB207A7661009AA065 /* openconnectmain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = openconnectmain.c; sourceTree = "<group>"; };
+		61C491AD207A76BC009AA065 /* openconnect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = openconnect.h; sourceTree = "<group>"; };
+		D9EA52111827295000CB83C9 /* VPNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPNViewController.h; sourceTree = "<group>"; };
+		D9EA52121827295000CB83C9 /* VPNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPNViewController.m; sourceTree = "<group>"; };
+		D9F1874C1826F67800FE27F1 /* openconnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = openconnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9F1874F1826F67800FE27F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D9F187511826F67800FE27F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D9F187531826F67800FE27F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D9F187571826F67800FE27F1 /* openvpn-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "openvpn-Info.plist"; sourceTree = "<group>"; };
+		D9F187591826F67800FE27F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9F1875B1826F67800FE27F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9F1875D1826F67800FE27F1 /* openvpn-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "openvpn-Prefix.pch"; sourceTree = "<group>"; };
+		D9F1875E1826F67800FE27F1 /* VPNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VPNAppDelegate.h; sourceTree = "<group>"; };
+		D9F1875F1826F67800FE27F1 /* VPNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VPNAppDelegate.m; sourceTree = "<group>"; };
+		D9F187611826F67800FE27F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6159E10E1EEE738200F3DD6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6159E1211EEE73A200F3DD6E /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617BBCF51F623DD100B26C67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619300501F62DC9900BBDD5B /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F187491826F67800FE27F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61C491A9207A7306009AA065 /* libstdc++.tbd in Frameworks */,
+				6125DA6E1F41A47C007198DE /* libssl.a in Frameworks */,
+				6125DA6C1F41A470007198DE /* libcrypto.a in Frameworks */,
+				6159E1221EEE73AC00F3DD6E /* NetworkExtension.framework in Frameworks */,
+				D9F187521826F67800FE27F1 /* CoreGraphics.framework in Frameworks */,
+				D9F187541826F67800FE27F1 /* UIKit.framework in Frameworks */,
+				D9F187501826F67800FE27F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6159E1121EEE738200F3DD6E /* NEPacketTunnelVPNDemoTunnel */ = {
+			isa = PBXGroup;
+			children = (
+				6159E1151EEE738300F3DD6E /* PacketTunnelProvider.h */,
+				6159E1161EEE738300F3DD6E /* PacketTunnelProvider.m */,
+				6159E1181EEE738300F3DD6E /* Info.plist */,
+				6159E1131EEE738300F3DD6E /* Supporting Files */,
+			);
+			path = NEPacketTunnelVPNDemoTunnel;
+			sourceTree = "<group>";
+		};
+		6159E1131EEE738300F3DD6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6159E1141EEE738300F3DD6E /* NEPacketTunnelVPNDemoTunnel.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		616E034E1F3DB670000F42F6 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				616E034F1F3DB6EF000F42F6 /* bg.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		617BBCF91F623DD100B26C67 /* PacketTunnel */ = {
+			isa = PBXGroup;
+			children = (
+				617BBCFC1F623DD100B26C67 /* PacketTunnelProvider.h */,
+				617BBCFD1F623DD100B26C67 /* PacketTunnelProvider.m */,
+				617BBCFF1F623DD100B26C67 /* Info.plist */,
+				617BBCFA1F623DD100B26C67 /* Supporting Files */,
+			);
+			path = PacketTunnel;
+			sourceTree = "<group>";
+		};
+		617BBCFA1F623DD100B26C67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				617BBCFB1F623DD100B26C67 /* PacketTunnel.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		618A9BA82077243900A73A27 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				618A9BAB2077250A00A73A27 /* config.h */,
+				618A9BA9207724ED00A73A27 /* version.c */,
+			);
+			name = core;
+			sourceTree = "<group>";
+		};
+		618A9BAC2077320000A73A27 /* adapter */ = {
+			isa = PBXGroup;
+			children = (
+				61A815A220786B2000CEC3C5 /* OpenVPNNetworkSettingsBuilder.h */,
+				61A815A320786B2000CEC3C5 /* OpenVPNNetworkSettingsBuilder.m */,
+				6125DA671F41A20D007198DE /* Wrapper.h */,
+				6125DA681F41A20D007198DE /* Wrapper.m */,
+				618A9BB62077329600A73A27 /* OpenVPNAdapterPacketFlow.h */,
+				618A9BB32077326C00A73A27 /* OpenVPNPacket.h */,
+				618A9BB42077326C00A73A27 /* OpenVPNPacket.mm */,
+				618A9BB02077324D00A73A27 /* OpenVPNError.h */,
+				618A9BB12077324D00A73A27 /* OpenVPNError.m */,
+				618A9BAE2077323E00A73A27 /* OpenVPNPacketFlowBridge.h */,
+				618A9BAD2077323E00A73A27 /* OpenVPNPacketFlowBridge.mm */,
+				618A9BB820774D4500A73A27 /* OpenAdapter.h */,
+				618A9BB920774D4500A73A27 /* OpenAdapter.m */,
+			);
+			name = adapter;
+			sourceTree = "<group>";
+		};
+		61C49167207A71D4009AA065 /* open */ = {
+			isa = PBXGroup;
+			children = (
+				61C49170207A71E9009AA065 /* auth.c */,
+				61C4917D207A71EA009AA065 /* autogen.sh */,
+				61C4916A207A71E9009AA065 /* build-all.sh */,
+				61C4917B207A71EA009AA065 /* build-ios-arm64.sh */,
+				61C49186207A71EA009AA065 /* build-ios-armv7.sh */,
+				61C49181207A71EA009AA065 /* build-ios.sh */,
+				61C49179207A71E9009AA065 /* build-openssl.sh */,
+				61C49180207A71EA009AA065 /* compat.c */,
+				61C49189207A71EB009AA065 /* config.h */,
+				61C49169207A71E8009AA065 /* cstp.c */,
+				61C49168207A71E8009AA065 /* depcomp */,
+				61C4917A207A71E9009AA065 /* digest.c */,
+				61C49188207A71EA009AA065 /* dtls.c */,
+				61C49173207A71E9009AA065 /* gssapi.c */,
+				61C49184207A71EA009AA065 /* http.c */,
+				61C4916B207A71E9009AA065 /* library.c */,
+				61C49187207A71EA009AA065 /* main.c */,
+				61C4917F207A71EA009AA065 /* mainloop.c */,
+				61C49175207A71E9009AA065 /* ntlm.c */,
+				61C4917E207A71EA009AA065 /* openconnect-internal.h */,
+				61C49176207A71E9009AA065 /* openconnect.h */,
+				61C49185207A71EA009AA065 /* openssl.c */,
+				61C49177207A71E9009AA065 /* script.c */,
+				61C49174207A71E9009AA065 /* ssl.c */,
+				61C4916E207A71E9009AA065 /* sspi.c */,
+				61C4916C207A71E9009AA065 /* tun.c */,
+				61C49183207A71EA009AA065 /* version.c */,
+				61C4916F207A71E9009AA065 /* xml.c */,
+			);
+			name = open;
+			sourceTree = "<group>";
+		};
+		D9F187431826F67800FE27F1 = {
+			isa = PBXGroup;
+			children = (
+				D9F187551826F67800FE27F1 /* openconnect */,
+				6159E1121EEE738200F3DD6E /* NEPacketTunnelVPNDemoTunnel */,
+				617BBCF91F623DD100B26C67 /* PacketTunnel */,
+				D9F1874E1826F67800FE27F1 /* Frameworks */,
+				D9F1874D1826F67800FE27F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9F1874D1826F67800FE27F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9F1874C1826F67800FE27F1 /* openconnect.app */,
+				6159E1111EEE738200F3DD6E /* NEPacketTunnelVPNDemoTunnel.appex */,
+				617BBCF81F623DD100B26C67 /* PacketTunnel.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9F1874E1826F67800FE27F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61C491A8207A7306009AA065 /* libstdc++.tbd */,
+				6125DA6F1F41A484007198DE /* libopenconnect.a */,
+				6125DA6D1F41A47C007198DE /* libssl.a */,
+				6125DA6B1F41A470007198DE /* libcrypto.a */,
+				6159E1201EEE73A200F3DD6E /* NetworkExtension.framework */,
+				D9F1874F1826F67800FE27F1 /* Foundation.framework */,
+				D9F187511826F67800FE27F1 /* CoreGraphics.framework */,
+				D9F187531826F67800FE27F1 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9F187551826F67800FE27F1 /* openconnect */ = {
+			isa = PBXGroup;
+			children = (
+				61690385207A7C2B004FBE9F /* mainloop.c */,
+				61690383207A7BFB004FBE9F /* cstp.c */,
+				61690380207A7BBA004FBE9F /* digest.c */,
+				6169037F207A7BBA004FBE9F /* dtls.c */,
+				6169037C207A7B52004FBE9F /* version.c */,
+				6169037B207A7B4E004FBE9F /* tun.c */,
+				61690377207A7AFB004FBE9F /* ssl.c */,
+				61690375207A7AC4004FBE9F /* auth.c */,
+				61690373207A7AA0004FBE9F /* openssl.c */,
+				61690372207A7A8D004FBE9F /* script.c */,
+				61690370207A7A57004FBE9F /* ntlm.c */,
+				61C49167207A71D4009AA065 /* open */,
+				618A9BAC2077320000A73A27 /* adapter */,
+				618A9BA82077243900A73A27 /* core */,
+				6125DA6A1F41A437007198DE /* openconnect-internal.h */,
+				616E034E1F3DB670000F42F6 /* image */,
+				614A3D281EEEECA20095D177 /* LaunchScreen.storyboard */,
+				614850101ECFF8340055EF74 /* openvpn.entitlements */,
+				D9F1875E1826F67800FE27F1 /* VPNAppDelegate.h */,
+				D9F1875F1826F67800FE27F1 /* VPNAppDelegate.m */,
+				D9EA52111827295000CB83C9 /* VPNViewController.h */,
+				D9EA52121827295000CB83C9 /* VPNViewController.m */,
+				D9F187611826F67800FE27F1 /* Images.xcassets */,
+				D9F187561826F67800FE27F1 /* Supporting Files */,
+				615B2BCE1EEEE94F00B77194 /* Storyboard.storyboard */,
+				6169036C207A78FA004FBE9F /* http.c */,
+				6169036E207A792F004FBE9F /* script.c */,
+				616503011EEF89110077E101 /* TunnelUtil.h */,
+				616503021EEF89110077E101 /* TunnelUtil.m */,
+				61C491AA207A7661009AA065 /* openconnectmain.h */,
+				61C491AB207A7661009AA065 /* openconnectmain.c */,
+				61C491AD207A76BC009AA065 /* openconnect.h */,
+				6169036A207A7899004FBE9F /* library.c */,
+			);
+			name = openconnect;
+			path = openvpn;
+			sourceTree = "<group>";
+		};
+		D9F187561826F67800FE27F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61C2F8B91F406E2E0063C4C8 /* Austria.ovpn */,
+				61A13C451F3E972E00999F37 /* pass-vpnexpress.txt */,
+				61A13C431F3E077000999F37 /* Belgium.ovpn */,
+				617AE7CE1F3AE5C2009808D3 /* client-ios.ovpn */,
+				61A4B0461F39A47800300331 /* u.ovpn */,
+				6159E10B1EEE727600F3DD6E /* udp.ovpn */,
+				61427E091EBE02F50032AB64 /* cert.file */,
+				61427E071EBE01A20032AB64 /* ca.file */,
+				61427E051EBDF73B0032AB64 /* pass.txt */,
+				61427E031EBDF6EF0032AB64 /* tcp.ovpn */,
+				D9F187571826F67800FE27F1 /* openvpn-Info.plist */,
+				D9F187581826F67800FE27F1 /* InfoPlist.strings */,
+				D9F1875B1826F67800FE27F1 /* main.m */,
+				D9F1875D1826F67800FE27F1 /* openvpn-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6159E1101EEE738200F3DD6E /* NEPacketTunnelVPNDemoTunnel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6159E11C1EEE738300F3DD6E /* Build configuration list for PBXNativeTarget "NEPacketTunnelVPNDemoTunnel" */;
+			buildPhases = (
+				6159E10D1EEE738200F3DD6E /* Sources */,
+				6159E10E1EEE738200F3DD6E /* Frameworks */,
+				6159E10F1EEE738200F3DD6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NEPacketTunnelVPNDemoTunnel;
+			productName = NEPacketTunnelVPNDemoTunnel;
+			productReference = 6159E1111EEE738200F3DD6E /* NEPacketTunnelVPNDemoTunnel.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		617BBCF71F623DD100B26C67 /* PacketTunnel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 617BBD051F623DD100B26C67 /* Build configuration list for PBXNativeTarget "PacketTunnel" */;
+			buildPhases = (
+				617BBCF41F623DD100B26C67 /* Sources */,
+				617BBCF51F623DD100B26C67 /* Frameworks */,
+				617BBCF61F623DD100B26C67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PacketTunnel;
+			productName = PacketTunnel;
+			productReference = 617BBCF81F623DD100B26C67 /* PacketTunnel.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		D9F1874B1826F67800FE27F1 /* openconnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9F187781826F67800FE27F1 /* Build configuration list for PBXNativeTarget "openconnect" */;
+			buildPhases = (
+				D9F187481826F67800FE27F1 /* Sources */,
+				D9F187491826F67800FE27F1 /* Frameworks */,
+				D9F1874A1826F67800FE27F1 /* Resources */,
+				6159E11F1EEE738300F3DD6E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6159E11A1EEE738300F3DD6E /* PBXTargetDependency */,
+				617BBD011F623DD100B26C67 /* PBXTargetDependency */,
+			);
+			name = openconnect;
+			productName = openvpn;
+			productReference = D9F1874C1826F67800FE27F1 /* openconnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9F187441826F67800FE27F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VPN;
+				LastUpgradeCheck = 0500;
+				TargetAttributes = {
+					6159E1101EEE738200F3DD6E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = GQZYKR8DHG;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.NetworkExtensions = {
+								enabled = 1;
+							};
+						};
+					};
+					617BBCF71F623DD100B26C67 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = GQZYKR8DHG;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.NetworkExtensions = {
+								enabled = 1;
+							};
+						};
+					};
+					D9F1874B1826F67800FE27F1 = {
+						DevelopmentTeam = GQZYKR8DHG;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.GameCenter = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D9F187471826F67800FE27F1 /* Build configuration list for PBXProject "openconnect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D9F187431826F67800FE27F1;
+			productRefGroup = D9F1874D1826F67800FE27F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9F1874B1826F67800FE27F1 /* openconnect */,
+				6159E1101EEE738200F3DD6E /* NEPacketTunnelVPNDemoTunnel */,
+				617BBCF71F623DD100B26C67 /* PacketTunnel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6159E10F1EEE738200F3DD6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617BBCF61F623DD100B26C67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F1874A1826F67800FE27F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A4B0471F39A47800300331 /* u.ovpn in Resources */,
+				D9F1875A1826F67800FE27F1 /* InfoPlist.strings in Resources */,
+				61427E061EBDF73B0032AB64 /* pass.txt in Resources */,
+				61A13C461F3E972E00999F37 /* pass-vpnexpress.txt in Resources */,
+				61427E041EBDF6EF0032AB64 /* tcp.ovpn in Resources */,
+				61A13C441F3E077000999F37 /* Belgium.ovpn in Resources */,
+				61C4919D207A71EB009AA065 /* autogen.sh in Resources */,
+				D9F187621826F67800FE27F1 /* Images.xcassets in Resources */,
+				61427E081EBE01A20032AB64 /* ca.file in Resources */,
+				61427E0A1EBE02F50032AB64 /* cert.file in Resources */,
+				61C2F8BA1F406E2E0063C4C8 /* Austria.ovpn in Resources */,
+				61C491A0207A71EB009AA065 /* build-ios.sh in Resources */,
+				617AE7CF1F3AE5C2009808D3 /* client-ios.ovpn in Resources */,
+				6159E10C1EEE727600F3DD6E /* udp.ovpn in Resources */,
+				61C4919B207A71EB009AA065 /* build-ios-arm64.sh in Resources */,
+				614A3D291EEEECA20095D177 /* LaunchScreen.storyboard in Resources */,
+				61C4918C207A71EB009AA065 /* build-all.sh in Resources */,
+				61C491A5207A71EB009AA065 /* build-ios-armv7.sh in Resources */,
+				615B2BCF1EEEE94F00B77194 /* Storyboard.storyboard in Resources */,
+				616E03501F3DB6EF000F42F6 /* bg.png in Resources */,
+				61C49199207A71EB009AA065 /* build-openssl.sh in Resources */,
+				61C4918A207A71EB009AA065 /* depcomp in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6159E10D1EEE738200F3DD6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6159E1171EEE738300F3DD6E /* PacketTunnelProvider.m in Sources */,
+				616503041EEF89110077E101 /* TunnelUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617BBCF41F623DD100B26C67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617BBCFE1F623DD100B26C67 /* PacketTunnelProvider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F187481826F67800FE27F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61690386207A7C33004FBE9F /* mainloop.c in Sources */,
+				61690384207A7C04004FBE9F /* cstp.c in Sources */,
+				61690381207A7BC1004FBE9F /* digest.c in Sources */,
+				61690382207A7BC1004FBE9F /* dtls.c in Sources */,
+				6169037D207A7B5C004FBE9F /* version.c in Sources */,
+				6169037E207A7B5C004FBE9F /* tun.c in Sources */,
+				61690379207A7B01004FBE9F /* ssl.c in Sources */,
+				61690376207A7ACE004FBE9F /* auth.c in Sources */,
+				61690374207A7AA6004FBE9F /* openssl.c in Sources */,
+				61690371207A7A66004FBE9F /* ntlm.c in Sources */,
+				6169036F207A7939004FBE9F /* script.c in Sources */,
+				6169036D207A7909004FBE9F /* http.c in Sources */,
+				618A9BB22077324E00A73A27 /* OpenVPNError.m in Sources */,
+				D9F1875C1826F67800FE27F1 /* main.m in Sources */,
+				61A815A420786B2000CEC3C5 /* OpenVPNNetworkSettingsBuilder.m in Sources */,
+				616503031EEF89110077E101 /* TunnelUtil.m in Sources */,
+				6125DA691F41A20D007198DE /* Wrapper.m in Sources */,
+				618A9BAF2077323E00A73A27 /* OpenVPNPacketFlowBridge.mm in Sources */,
+				D9EA52131827295000CB83C9 /* VPNViewController.m in Sources */,
+				618A9BB52077326C00A73A27 /* OpenVPNPacket.mm in Sources */,
+				D9F187601826F67800FE27F1 /* VPNAppDelegate.m in Sources */,
+				618A9BBA20774D4500A73A27 /* OpenAdapter.m in Sources */,
+				6169036B207A7899004FBE9F /* library.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6159E11A1EEE738300F3DD6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6159E1101EEE738200F3DD6E /* NEPacketTunnelVPNDemoTunnel */;
+			targetProxy = 6159E1191EEE738300F3DD6E /* PBXContainerItemProxy */;
+		};
+		617BBD011F623DD100B26C67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 617BBCF71F623DD100B26C67 /* PacketTunnel */;
+			targetProxy = 617BBD001F623DD100B26C67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9F187581826F67800FE27F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9F187591826F67800FE27F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6159E11D1EEE738300F3DD6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_ENTITLEMENTS = NEPacketTunnelVPNDemoTunnel/NEPacketTunnelVPNDemoTunnel.entitlements;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = GQZYKR8DHG;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = NEPacketTunnelVPNDemoTunnel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vpn.express.openconnect.NEPacketTunnelVPNDemoTunnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6159E11E1EEE738300F3DD6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_ENTITLEMENTS = NEPacketTunnelVPNDemoTunnel/NEPacketTunnelVPNDemoTunnel.entitlements;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = GQZYKR8DHG;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = NEPacketTunnelVPNDemoTunnel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vpn.express.openconnect.NEPacketTunnelVPNDemoTunnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		617BBD031F623DD100B26C67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_ENTITLEMENTS = PacketTunnel/PacketTunnel.entitlements;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = GQZYKR8DHG;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = PacketTunnel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vpn.express.openconnect.PacketTunnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		617BBD041F623DD100B26C67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_ENTITLEMENTS = PacketTunnel/PacketTunnel.entitlements;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = GQZYKR8DHG;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = PacketTunnel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vpn.express.openconnect.PacketTunnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D9F187761826F67800FE27F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9F187771826F67800FE27F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9F187791826F67800FE27F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = openvpn/openvpn.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = GQZYKR8DHG;
+				ENABLE_BITCODE = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "openvpn/openconnect-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "openvpn/openvpn-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lssl",
+					"-lz",
+					"-lxml2",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vpn.express.openconnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/include $(PROJECT_DIR)/libxml2-2.7.8/build/include/libxml2";
+				VALID_ARCHS = "arm64 armv7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D9F1877A1826F67800FE27F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = openvpn/openvpn.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = GQZYKR8DHG;
+				ENABLE_BITCODE = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "openvpn/openconnect-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "openvpn/openvpn-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lssl",
+					"-lz",
+					"-lxml2",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vpn.express.openconnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/include $(PROJECT_DIR)/libxml2-2.7.8/build/include/libxml2";
+				VALID_ARCHS = "arm64 armv7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6159E11C1EEE738300F3DD6E /* Build configuration list for PBXNativeTarget "NEPacketTunnelVPNDemoTunnel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6159E11D1EEE738300F3DD6E /* Debug */,
+				6159E11E1EEE738300F3DD6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		617BBD051F623DD100B26C67 /* Build configuration list for PBXNativeTarget "PacketTunnel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617BBD031F623DD100B26C67 /* Debug */,
+				617BBD041F623DD100B26C67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9F187471826F67800FE27F1 /* Build configuration list for PBXProject "openconnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9F187761826F67800FE27F1 /* Debug */,
+				D9F187771826F67800FE27F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9F187781826F67800FE27F1 /* Build configuration list for PBXNativeTarget "openconnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9F187791826F67800FE27F1 /* Debug */,
+				D9F1877A1826F67800FE27F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9F187441826F67800FE27F1 /* Project object */;
+}

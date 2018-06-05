@@ -1,0 +1,1127 @@
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  all-recursive
+Making all in include
+Making all in libxml
+make[3]: Nothing to be done for `all'.
+make[3]: Nothing to be done for `all-am'.
+Making all in .
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT SAX.lo -MD -MP -MF .deps/SAX.Tpo -c -o SAX.lo SAX.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT SAX.lo -MD -MP -MF .deps/SAX.Tpo -c SAX.c -o SAX.o
+mv -f .deps/SAX.Tpo .deps/SAX.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT entities.lo -MD -MP -MF .deps/entities.Tpo -c -o entities.lo entities.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT entities.lo -MD -MP -MF .deps/entities.Tpo -c entities.c -o entities.o
+mv -f .deps/entities.Tpo .deps/entities.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT encoding.lo -MD -MP -MF .deps/encoding.Tpo -c -o encoding.lo encoding.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT encoding.lo -MD -MP -MF .deps/encoding.Tpo -c encoding.c -o encoding.o
+encoding.c:487:26: warning: cast from 'const unsigned char *' to 'unsigned short *' increases required alignment from 1 to 2 [-Wcast-align]
+    unsigned short* in = (unsigned short*) inb;
+                         ^~~~~~~~~~~~~~~~~~~~~
+encoding.c:569:27: warning: cast from 'unsigned char *' to 'unsigned short *' increases required alignment from 1 to 2 [-Wcast-align]
+    unsigned short* out = (unsigned short*) outb;
+                          ^~~~~~~~~~~~~~~~~~~~~~
+encoding.c:725:26: warning: cast from 'const unsigned char *' to 'unsigned short *' increases required alignment from 1 to 2 [-Wcast-align]
+    unsigned short* in = (unsigned short*) inb;
+                         ^~~~~~~~~~~~~~~~~~~~~
+encoding.c:811:27: warning: cast from 'unsigned char *' to 'unsigned short *' increases required alignment from 1 to 2 [-Wcast-align]
+    unsigned short* out = (unsigned short*) outb;
+                          ^~~~~~~~~~~~~~~~~~~~~~
+4 warnings generated.
+mv -f .deps/encoding.Tpo .deps/encoding.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT error.lo -MD -MP -MF .deps/error.Tpo -c -o error.lo error.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT error.lo -MD -MP -MF .deps/error.Tpo -c error.c -o error.o
+mv -f .deps/error.Tpo .deps/error.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT parserInternals.lo -MD -MP -MF .deps/parserInternals.Tpo -c -o parserInternals.lo parserInternals.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT parserInternals.lo -MD -MP -MF .deps/parserInternals.Tpo -c parserInternals.c -o parserInternals.o
+mv -f .deps/parserInternals.Tpo .deps/parserInternals.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT parser.lo -MD -MP -MF .deps/parser.Tpo -c -o parser.lo parser.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT parser.lo -MD -MP -MF .deps/parser.Tpo -c parser.c -o parser.o
+parser.c:13044:43: warning: passing 'const xmlChar *' (aka 'const unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        hdlr = xmlFindCharEncodingHandler(doc->encoding);
+                                          ^~~~~~~~~~~~~
+./include/libxml/encoding.h:175:42: note: passing argument to parameter 'name' here
+        xmlFindCharEncodingHandler      (const char *name);
+                                                     ^
+1 warning generated.
+mv -f .deps/parser.Tpo .deps/parser.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT tree.lo -MD -MP -MF .deps/tree.Tpo -c -o tree.lo tree.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT tree.lo -MD -MP -MF .deps/tree.Tpo -c tree.c -o tree.o
+mv -f .deps/tree.Tpo .deps/tree.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT hash.lo -MD -MP -MF .deps/hash.Tpo -c -o hash.lo hash.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT hash.lo -MD -MP -MF .deps/hash.Tpo -c hash.c -o hash.o
+mv -f .deps/hash.Tpo .deps/hash.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT list.lo -MD -MP -MF .deps/list.Tpo -c -o list.lo list.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT list.lo -MD -MP -MF .deps/list.Tpo -c list.c -o list.o
+mv -f .deps/list.Tpo .deps/list.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xmlIO.lo -MD -MP -MF .deps/xmlIO.Tpo -c -o xmlIO.lo xmlIO.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xmlIO.lo -MD -MP -MF .deps/xmlIO.Tpo -c xmlIO.c -o xmlIO.o
+mv -f .deps/xmlIO.Tpo .deps/xmlIO.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xmlmemory.lo -MD -MP -MF .deps/xmlmemory.Tpo -c -o xmlmemory.lo xmlmemory.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xmlmemory.lo -MD -MP -MF .deps/xmlmemory.Tpo -c xmlmemory.c -o xmlmemory.o
+xmlmemory.c:326:9: warning: cast from 'char *' to 'MEMHDR *' (aka 'struct memnod *') increases required alignment from 1 to 8 [-Wcast-align]
+    p = CLIENT_2_HDR(ptr);
+        ^~~~~~~~~~~~~~~~~
+xmlmemory.c:113:26: note: expanded from macro 'CLIENT_2_HDR'
+#define CLIENT_2_HDR(a) ((MEMHDR *) (((char *) (a)) - RESERVE_SIZE))
+                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlmemory.c:431:9: warning: cast from 'char *' to 'MEMHDR *' (aka 'struct memnod *') increases required alignment from 1 to 8 [-Wcast-align]
+    p = CLIENT_2_HDR(ptr);
+        ^~~~~~~~~~~~~~~~~
+xmlmemory.c:113:26: note: expanded from macro 'CLIENT_2_HDR'
+#define CLIENT_2_HDR(a) ((MEMHDR *) (((char *) (a)) - RESERVE_SIZE))
+                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2 warnings generated.
+mv -f .deps/xmlmemory.Tpo .deps/xmlmemory.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT uri.lo -MD -MP -MF .deps/uri.Tpo -c -o uri.lo uri.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT uri.lo -MD -MP -MF .deps/uri.Tpo -c uri.c -o uri.o
+uri.c:1610:33: warning: while loop has empty body [-Wempty-body]
+        while ((*tmp++ = *segp++) != 0);
+                                       ^
+uri.c:1610:33: note: put the semicolon on a separate line to silence this warning
+1 warning generated.
+mv -f .deps/uri.Tpo .deps/uri.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT valid.lo -MD -MP -MF .deps/valid.Tpo -c -o valid.lo valid.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT valid.lo -MD -MP -MF .deps/valid.Tpo -c valid.c -o valid.o
+mv -f .deps/valid.Tpo .deps/valid.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xlink.lo -MD -MP -MF .deps/xlink.Tpo -c -o xlink.lo xlink.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xlink.lo -MD -MP -MF .deps/xlink.Tpo -c xlink.c -o xlink.o
+mv -f .deps/xlink.Tpo .deps/xlink.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT HTMLparser.lo -MD -MP -MF .deps/HTMLparser.Tpo -c -o HTMLparser.lo HTMLparser.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT HTMLparser.lo -MD -MP -MF .deps/HTMLparser.Tpo -c HTMLparser.c -o HTMLparser.o
+mv -f .deps/HTMLparser.Tpo .deps/HTMLparser.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT HTMLtree.lo -MD -MP -MF .deps/HTMLtree.Tpo -c -o HTMLtree.lo HTMLtree.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT HTMLtree.lo -MD -MP -MF .deps/HTMLtree.Tpo -c HTMLtree.c -o HTMLtree.o
+mv -f .deps/HTMLtree.Tpo .deps/HTMLtree.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT debugXML.lo -MD -MP -MF .deps/debugXML.Tpo -c -o debugXML.lo debugXML.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT debugXML.lo -MD -MP -MF .deps/debugXML.Tpo -c debugXML.c -o debugXML.o
+debugXML.c:2940:11: warning: comparison of array 'arg' equal to a null pointer is always false [-Wtautological-pointer-compare]
+            if ((arg == NULL) || (arg[0] == 0))
+                 ^~~    ~~~~
+1 warning generated.
+mv -f .deps/debugXML.Tpo .deps/debugXML.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xpath.lo -MD -MP -MF .deps/xpath.Tpo -c -o xpath.lo xpath.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xpath.lo -MD -MP -MF .deps/xpath.Tpo -c xpath.c -o xpath.o
+xpath.c:4756:73: warning: passing 'xmlXPathFunction' (aka 'void (*)(struct _xmlXPathParserContext *, int)') to parameter of type 'void *' converts between void pointer and function pointer [-Wpedantic]
+    return(xmlHashAddEntry2(ctxt->funcHash, name, ns_uri, XML_CAST_FPTR(f)));
+                                                                        ^
+./include/libxml/hash.h:56:29: note: expanded from macro 'XML_CAST_FPTR'
+#define XML_CAST_FPTR(fptr) fptr
+                            ^~~~
+./include/libxml/hash.h:131:34: note: passing argument to parameter 'userdata' here
+                                         void *userdata);
+                                               ^
+xpath.c:4837:24: warning: assigning to 'xmlXPathFunction' (aka 'void (*)(struct _xmlXPathParserContext *, int)') from 'void *' converts between void pointer and function pointer [-Wpedantic]
+    XML_CAST_FPTR(ret) = xmlHashLookup2(ctxt->funcHash, name, ns_uri);
+                       ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xpath.c:10047:12: warning: unused variable 'mult' [-Wunused-variable]
+    double mult = 1;
+           ^
+xpath.c:12275:13: warning: comparison of constant 'XML_NAMESPACE_DECL' (18) with expression of type 'xmlXPathTypeVal' is always false [-Wtautological-constant-out-of-range-compare]
+                        if (type == XML_NAMESPACE_DECL)
+                            ~~~~ ^  ~~~~~~~~~~~~~~~~~~
+xpath.c:13394:41: warning: assigning to 'xmlXPathFunction' (aka 'void (*)(struct _xmlXPathParserContext *, int)') from 'void *' converts between void pointer and function pointer [-Wpedantic]
+                    XML_CAST_FPTR(func) = op->cache;
+                                        ^ ~~~~~~~~~
+xpath.c:13419:31: warning: assigning to 'void *' from 'xmlXPathFunction' (aka 'void (*)(struct _xmlXPathParserContext *, int)') converts between void pointer and function pointer [-Wpedantic]
+                    op->cache = XML_CAST_FPTR(func);
+                              ^               ~~~~
+In file included from xpath.c:110:
+./trionan.c:194:1: warning: unused function 'trio_is_special_quantity' [-Wunused-function]
+trio_is_special_quantity
+^
+./trionan.c:218:1: warning: unused function 'trio_is_negative' [-Wunused-function]
+trio_is_negative
+^
+8 warnings generated.
+mv -f .deps/xpath.Tpo .deps/xpath.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xpointer.lo -MD -MP -MF .deps/xpointer.Tpo -c -o xpointer.lo xpointer.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xpointer.lo -MD -MP -MF .deps/xpointer.Tpo -c xpointer.c -o xpointer.o
+mv -f .deps/xpointer.Tpo .deps/xpointer.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xinclude.lo -MD -MP -MF .deps/xinclude.Tpo -c -o xinclude.lo xinclude.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xinclude.lo -MD -MP -MF .deps/xinclude.Tpo -c xinclude.c -o xinclude.o
+mv -f .deps/xinclude.Tpo .deps/xinclude.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT nanohttp.lo -MD -MP -MF .deps/nanohttp.Tpo -c -o nanohttp.lo nanohttp.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT nanohttp.lo -MD -MP -MF .deps/nanohttp.Tpo -c nanohttp.c -o nanohttp.o
+nanohttp.c:1527:38: warning: while loop has empty body [-Wempty-body]
+        while ( xmlNanoHTTPRecv(ctxt) > 0 ) ;
+                                            ^
+nanohttp.c:1527:38: note: put the semicolon on a separate line to silence this warning
+1 warning generated.
+mv -f .deps/nanohttp.Tpo .deps/nanohttp.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT nanoftp.lo -MD -MP -MF .deps/nanoftp.Tpo -c -o nanoftp.lo nanoftp.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT nanoftp.lo -MD -MP -MF .deps/nanoftp.Tpo -c nanoftp.c -o nanoftp.o
+mv -f .deps/nanoftp.Tpo .deps/nanoftp.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT DOCBparser.lo -MD -MP -MF .deps/DOCBparser.Tpo -c -o DOCBparser.lo DOCBparser.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT DOCBparser.lo -MD -MP -MF .deps/DOCBparser.Tpo -c DOCBparser.c -o DOCBparser.o
+mv -f .deps/DOCBparser.Tpo .deps/DOCBparser.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT catalog.lo -MD -MP -MF .deps/catalog.Tpo -c -o catalog.lo catalog.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT catalog.lo -MD -MP -MF .deps/catalog.Tpo -c catalog.c -o catalog.o
+mv -f .deps/catalog.Tpo .deps/catalog.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT globals.lo -MD -MP -MF .deps/globals.Tpo -c -o globals.lo globals.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT globals.lo -MD -MP -MF .deps/globals.Tpo -c globals.c -o globals.o
+mv -f .deps/globals.Tpo .deps/globals.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT threads.lo -MD -MP -MF .deps/threads.Tpo -c -o threads.lo threads.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT threads.lo -MD -MP -MF .deps/threads.Tpo -c threads.c -o threads.o
+threads.c:442:9: warning: address of function 'pthread_mutex_lock' will always evaluate to 'true' [-Wpointer-bool-conversion]
+    if (pthread_mutex_lock)
+    ~~  ^~~~~~~~~~~~~~~~~~
+threads.c:442:9: note: prefix with the address-of operator to silence this warning
+    if (pthread_mutex_lock)
+        ^
+        &
+threads.c:512:9: warning: address of function 'pthread_mutex_unlock' will always evaluate to 'true' [-Wpointer-bool-conversion]
+    if (pthread_mutex_unlock)
+    ~~  ^~~~~~~~~~~~~~~~~~~~
+threads.c:512:9: note: prefix with the address-of operator to silence this warning
+    if (pthread_mutex_unlock)
+        ^
+        &
+threads.c:866:14: warning: comparison of function 'pthread_once' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+        if ((pthread_once != NULL) &&
+             ^~~~~~~~~~~~    ~~~~
+threads.c:866:14: note: prefix with the address-of operator to silence this warning
+        if ((pthread_once != NULL) &&
+             ^
+             &
+threads.c:867:14: warning: comparison of function 'pthread_getspecific' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_getspecific != NULL) &&
+             ^~~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:867:14: note: prefix with the address-of operator to silence this warning
+            (pthread_getspecific != NULL) &&
+             ^
+             &
+threads.c:868:14: warning: comparison of function 'pthread_setspecific' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_setspecific != NULL) &&
+             ^~~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:868:14: note: prefix with the address-of operator to silence this warning
+            (pthread_setspecific != NULL) &&
+             ^
+             &
+threads.c:869:14: warning: comparison of function 'pthread_key_create' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_key_create != NULL) &&
+             ^~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:869:14: note: prefix with the address-of operator to silence this warning
+            (pthread_key_create != NULL) &&
+             ^
+             &
+threads.c:870:14: warning: comparison of function 'pthread_key_delete' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_key_delete != NULL) &&
+             ^~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:870:14: note: prefix with the address-of operator to silence this warning
+            (pthread_key_delete != NULL) &&
+             ^
+             &
+threads.c:871:14: warning: comparison of function 'pthread_mutex_init' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_mutex_init != NULL) &&
+             ^~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:871:14: note: prefix with the address-of operator to silence this warning
+            (pthread_mutex_init != NULL) &&
+             ^
+             &
+threads.c:872:14: warning: comparison of function 'pthread_mutex_destroy' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_mutex_destroy != NULL) &&
+             ^~~~~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:872:14: note: prefix with the address-of operator to silence this warning
+            (pthread_mutex_destroy != NULL) &&
+             ^
+             &
+threads.c:873:14: warning: comparison of function 'pthread_mutex_lock' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_mutex_lock != NULL) &&
+             ^~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:873:14: note: prefix with the address-of operator to silence this warning
+            (pthread_mutex_lock != NULL) &&
+             ^
+             &
+threads.c:874:14: warning: comparison of function 'pthread_mutex_unlock' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_mutex_unlock != NULL) &&
+             ^~~~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:874:14: note: prefix with the address-of operator to silence this warning
+            (pthread_mutex_unlock != NULL) &&
+             ^
+             &
+threads.c:875:14: warning: comparison of function 'pthread_cond_init' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_cond_init != NULL) &&
+             ^~~~~~~~~~~~~~~~~    ~~~~
+threads.c:875:14: note: prefix with the address-of operator to silence this warning
+            (pthread_cond_init != NULL) &&
+             ^
+             &
+threads.c:876:14: warning: comparison of function 'pthread_cond_destroy' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_cond_destroy != NULL) &&
+             ^~~~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:876:14: note: prefix with the address-of operator to silence this warning
+            (pthread_cond_destroy != NULL) &&
+             ^
+             &
+threads.c:877:14: warning: comparison of function 'pthread_cond_wait' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_cond_wait != NULL) &&
+             ^~~~~~~~~~~~~~~~~    ~~~~
+threads.c:877:14: note: prefix with the address-of operator to silence this warning
+            (pthread_cond_wait != NULL) &&
+             ^
+             &
+threads.c:878:14: warning: comparison of function 'pthread_equal' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_equal != NULL) &&
+             ^~~~~~~~~~~~~    ~~~~
+threads.c:878:14: note: prefix with the address-of operator to silence this warning
+            (pthread_equal != NULL) &&
+             ^
+             &
+threads.c:879:14: warning: comparison of function 'pthread_self' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_self != NULL) &&
+             ^~~~~~~~~~~~    ~~~~
+threads.c:879:14: note: prefix with the address-of operator to silence this warning
+            (pthread_self != NULL) &&
+             ^
+             &
+threads.c:879:14: note: suffix with parentheses to turn this into a function call
+            (pthread_self != NULL) &&
+             ^
+                         ()
+threads.c:880:14: warning: comparison of function 'pthread_cond_signal' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_cond_signal != NULL)) {
+             ^~~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:880:14: note: prefix with the address-of operator to silence this warning
+            (pthread_cond_signal != NULL)) {
+             ^
+             &
+threads.c:916:35: warning: comparison of function 'pthread_key_delete' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+    if ((libxml_is_threaded)  && (pthread_key_delete != NULL))
+                                  ^~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:916:35: note: prefix with the address-of operator to silence this warning
+    if ((libxml_is_threaded)  && (pthread_key_delete != NULL))
+                                  ^
+                                  &
+18 warnings generated.
+mv -f .deps/threads.Tpo .deps/threads.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT c14n.lo -MD -MP -MF .deps/c14n.Tpo -c -o c14n.lo c14n.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT c14n.lo -MD -MP -MF .deps/c14n.Tpo -c c14n.c -o c14n.o
+mv -f .deps/c14n.Tpo .deps/c14n.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xmlstring.lo -MD -MP -MF .deps/xmlstring.Tpo -c -o xmlstring.lo xmlstring.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xmlstring.lo -MD -MP -MF .deps/xmlstring.Tpo -c xmlstring.c -o xmlstring.o
+mv -f .deps/xmlstring.Tpo .deps/xmlstring.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xmlregexp.lo -MD -MP -MF .deps/xmlregexp.Tpo -c -o xmlregexp.lo xmlregexp.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xmlregexp.lo -MD -MP -MF .deps/xmlregexp.Tpo -c xmlregexp.c -o xmlregexp.o
+mv -f .deps/xmlregexp.Tpo .deps/xmlregexp.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xmlschemas.lo -MD -MP -MF .deps/xmlschemas.Tpo -c -o xmlschemas.lo xmlschemas.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xmlschemas.lo -MD -MP -MF .deps/xmlschemas.Tpo -c xmlschemas.c -o xmlschemas.o
+xmlschemas.c:1172:25: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaTypePtr' (aka 'struct _xmlSchemaType *') increases required alignment from 4 to 8 [-Wcast-align]
+            if (WXS_IS_COMPLEX(WXS_TYPE_CAST item))
+                ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+xmlschemas.c:138:23: note: expanded from macro 'WXS_TYPE_CAST'
+#define WXS_TYPE_CAST (xmlSchemaTypePtr)
+                      ^
+xmlschemas.c:224:8: note: expanded from macro 'WXS_IS_COMPLEX'
+    (((i)->type == XML_SCHEMA_TYPE_COMPLEX) || \
+       ^
+xmlschemas.c:1172:25: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaTypePtr' (aka 'struct _xmlSchemaType *') increases required alignment from 4 to 8 [-Wcast-align]
+            if (WXS_IS_COMPLEX(WXS_TYPE_CAST item))
+                ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+xmlschemas.c:138:23: note: expanded from macro 'WXS_TYPE_CAST'
+#define WXS_TYPE_CAST (xmlSchemaTypePtr)
+                      ^
+xmlschemas.c:225:8: note: expanded from macro 'WXS_IS_COMPLEX'
+     ((i)->builtInType == XML_SCHEMAS_ANYTYPE))
+       ^
+xmlschemas.c:1196:15: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaElementPtr' (aka 'struct _xmlSchemaElement *') increases required alignment from 4 to 8 [-Wcast-align]
+            return (((xmlSchemaElementPtr) item)->node);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:1198:15: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaAttributePtr' (aka 'struct _xmlSchemaAttribute *') increases required alignment from 4 to 8 [-Wcast-align]
+            return (((xmlSchemaAttributePtr) item)->node);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:1201:15: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaTypePtr' (aka 'struct _xmlSchemaType *') increases required alignment from 4 to 8 [-Wcast-align]
+            return (((xmlSchemaTypePtr) item)->node);
+                     ^~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:1204:15: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaWildcardPtr' (aka 'struct _xmlSchemaWildcard *') increases required alignment from 4 to 8 [-Wcast-align]
+            return (((xmlSchemaWildcardPtr) item)->node);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:1206:15: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaParticlePtr' (aka 'struct _xmlSchemaParticle *') increases required alignment from 4 to 8 [-Wcast-align]
+            return (((xmlSchemaParticlePtr) item)->node);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:1210:15: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaModelGroupPtr' (aka 'struct _xmlSchemaModelGroup *') increases required alignment from 4 to 8 [-Wcast-align]
+            return (((xmlSchemaModelGroupPtr) item)->node);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:1212:15: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaModelGroupDefPtr' (aka 'struct _xmlSchemaModelGroupDef *') increases required alignment from 4 to 8 [-Wcast-align]
+            return (((xmlSchemaModelGroupDefPtr) item)->node);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:1214:15: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaAttributeGroupPtr' (aka 'struct _xmlSchemaAttributeGroup *') increases required alignment from 4 to 8 [-Wcast-align]
+            return (((xmlSchemaAttributeGroupPtr) item)->node);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:1218:15: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaIDCPtr' (aka 'struct _xmlSchemaIDC *') increases required alignment from 4 to 8 [-Wcast-align]
+            return (((xmlSchemaIDCPtr) item)->node);
+                     ^~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:1220:14: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaQNameRefPtr' (aka 'struct _xmlSchemaQNameRef *') increases required alignment from 4 to 8 [-Wcast-align]
+            return(((xmlSchemaQNameRefPtr) item)->node);
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:1226:15: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaAttributeUsePtr' (aka 'struct _xmlSchemaAttributeUse *') increases required alignment from 4 to 8 [-Wcast-align]
+            return (((xmlSchemaAttributeUsePtr) item)->node);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:1321:15: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaElementPtr' (aka 'struct _xmlSchemaElement *') increases required alignment from 4 to 8 [-Wcast-align]
+            return (((xmlSchemaElementPtr) item)->name);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:1323:15: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaAttributePtr' (aka 'struct _xmlSchemaAttribute *') increases required alignment from 4 to 8 [-Wcast-align]
+            return (((xmlSchemaAttributePtr) item)->name);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:1325:15: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaAttributeGroupPtr' (aka 'struct _xmlSchemaAttributeGroup *') increases required alignment from 4 to 8 [-Wcast-align]
+            return (((xmlSchemaAttributeGroupPtr) item)->name);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:1329:15: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaTypePtr' (aka 'struct _xmlSchemaType *') increases required alignment from 4 to 8 [-Wcast-align]
+            return (((xmlSchemaTypePtr) item)->name);
+                     ^~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:1331:15: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaModelGroupDefPtr' (aka 'struct _xmlSchemaModelGroupDef *') increases required alignment from 4 to 8 [-Wcast-align]
+            return (((xmlSchemaModelGroupDefPtr) item)->name);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:1335:15: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaIDCPtr' (aka 'struct _xmlSchemaIDC *') increases required alignment from 4 to 8 [-Wcast-align]
+            return (((xmlSchemaIDCPtr) item)->name);
+                     ^~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:1337:10: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaAttributeUsePtr' (aka 'struct _xmlSchemaAttributeUse *') increases required alignment from 4 to 8 [-Wcast-align]
+            if (WXS_ATTRUSE_DECL(item) != NULL) {
+                ^~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:169:45: note: expanded from macro 'WXS_ATTRUSE_DECL'
+#define WXS_ATTRUSE_DECL(au) WXS_ATTR_CAST (WXS_ATTR_USE_CAST (au))->attrDecl
+                                            ^~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:142:27: note: expanded from macro 'WXS_ATTR_USE_CAST'
+#define WXS_ATTR_USE_CAST (xmlSchemaAttributeUsePtr)
+                          ^
+xmlschemas.c:1339:22: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaAttributeUsePtr' (aka 'struct _xmlSchemaAttributeUse *') increases required alignment from 4 to 8 [-Wcast-align]
+                    WXS_BASIC_CAST WXS_ATTRUSE_DECL(item)));
+                                   ^~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:169:45: note: expanded from macro 'WXS_ATTRUSE_DECL'
+#define WXS_ATTRUSE_DECL(au) WXS_ATTR_CAST (WXS_ATTR_USE_CAST (au))->attrDecl
+                                            ^~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:142:27: note: expanded from macro 'WXS_ATTR_USE_CAST'
+#define WXS_ATTR_USE_CAST (xmlSchemaAttributeUsePtr)
+                          ^
+xmlschemas.c:1343:15: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaQNameRefPtr' (aka 'struct _xmlSchemaQNameRef *') increases required alignment from 4 to 8 [-Wcast-align]
+            return (((xmlSchemaQNameRefPtr) item)->name);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:1345:15: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaNotationPtr' (aka 'struct _xmlSchemaNotation *') increases required alignment from 4 to 8 [-Wcast-align]
+            return (((xmlSchemaNotationPtr) item)->name);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:1376:15: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaElementPtr' (aka 'struct _xmlSchemaElement *') increases required alignment from 4 to 8 [-Wcast-align]
+            return (((xmlSchemaElementPtr) item)->targetNamespace);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:1378:15: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaAttributePtr' (aka 'struct _xmlSchemaAttribute *') increases required alignment from 4 to 8 [-Wcast-align]
+            return (((xmlSchemaAttributePtr) item)->targetNamespace);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:1380:15: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaAttributeGroupPtr' (aka 'struct _xmlSchemaAttributeGroup *') increases required alignment from 4 to 8 [-Wcast-align]
+            return (((xmlSchemaAttributeGroupPtr) item)->targetNamespace);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:1385:15: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaTypePtr' (aka 'struct _xmlSchemaType *') increases required alignment from 4 to 8 [-Wcast-align]
+            return (((xmlSchemaTypePtr) item)->targetNamespace);
+                     ^~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:1387:15: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaModelGroupDefPtr' (aka 'struct _xmlSchemaModelGroupDef *') increases required alignment from 4 to 8 [-Wcast-align]
+            return (((xmlSchemaModelGroupDefPtr) item)->targetNamespace);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:1391:15: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaIDCPtr' (aka 'struct _xmlSchemaIDC *') increases required alignment from 4 to 8 [-Wcast-align]
+            return (((xmlSchemaIDCPtr) item)->targetNamespace);
+                     ^~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:1393:10: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaAttributeUsePtr' (aka 'struct _xmlSchemaAttributeUse *') increases required alignment from 4 to 8 [-Wcast-align]
+            if (WXS_ATTRUSE_DECL(item) != NULL) {
+                ^~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:169:45: note: expanded from macro 'WXS_ATTRUSE_DECL'
+#define WXS_ATTRUSE_DECL(au) WXS_ATTR_CAST (WXS_ATTR_USE_CAST (au))->attrDecl
+                                            ^~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:142:27: note: expanded from macro 'WXS_ATTR_USE_CAST'
+#define WXS_ATTR_USE_CAST (xmlSchemaAttributeUsePtr)
+                          ^
+xmlschemas.c:1395:22: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaAttributeUsePtr' (aka 'struct _xmlSchemaAttributeUse *') increases required alignment from 4 to 8 [-Wcast-align]
+                    WXS_BASIC_CAST WXS_ATTRUSE_DECL(item)));
+                                   ^~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:169:45: note: expanded from macro 'WXS_ATTRUSE_DECL'
+#define WXS_ATTRUSE_DECL(au) WXS_ATTR_CAST (WXS_ATTR_USE_CAST (au))->attrDecl
+                                            ^~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:142:27: note: expanded from macro 'WXS_ATTR_USE_CAST'
+#define WXS_ATTR_USE_CAST (xmlSchemaAttributeUsePtr)
+                          ^
+xmlschemas.c:1400:15: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaQNameRefPtr' (aka 'struct _xmlSchemaQNameRef *') increases required alignment from 4 to 8 [-Wcast-align]
+            return (((xmlSchemaQNameRefPtr) item)->targetNamespace);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:1402:15: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaNotationPtr' (aka 'struct _xmlSchemaNotation *') increases required alignment from 4 to 8 [-Wcast-align]
+            return (((xmlSchemaNotationPtr) item)->targetNamespace);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:1583:30: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaTypePtr' (aka 'struct _xmlSchemaType *') increases required alignment from 4 to 8 [-Wcast-align]
+            xmlSchemaTypePtr type = WXS_TYPE_CAST item;
+                                    ^~~~~~~~~~~~~~~~~~
+xmlschemas.c:138:23: note: expanded from macro 'WXS_TYPE_CAST'
+#define WXS_TYPE_CAST (xmlSchemaTypePtr)
+                      ^
+xmlschemas.c:1598:30: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaTypePtr' (aka 'struct _xmlSchemaType *') increases required alignment from 4 to 8 [-Wcast-align]
+            xmlSchemaTypePtr type = WXS_TYPE_CAST item;
+                                    ^~~~~~~~~~~~~~~~~~
+xmlschemas.c:138:23: note: expanded from macro 'WXS_TYPE_CAST'
+#define WXS_TYPE_CAST (xmlSchemaTypePtr)
+                      ^
+xmlschemas.c:1621:30: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaTypePtr' (aka 'struct _xmlSchemaType *') increases required alignment from 4 to 8 [-Wcast-align]
+            xmlSchemaTypePtr type = WXS_TYPE_CAST item;
+                                    ^~~~~~~~~~~~~~~~~~
+xmlschemas.c:138:23: note: expanded from macro 'WXS_TYPE_CAST'
+#define WXS_TYPE_CAST (xmlSchemaTypePtr)
+                      ^
+xmlschemas.c:1638:10: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaAttributeUsePtr' (aka 'struct _xmlSchemaAttributeUse *') increases required alignment from 4 to 8 [-Wcast-align]
+                ause = WXS_ATTR_USE_CAST item;
+                       ^~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:142:27: note: expanded from macro 'WXS_ATTR_USE_CAST'
+#define WXS_ATTR_USE_CAST (xmlSchemaAttributeUsePtr)
+                          ^
+xmlschemas.c:1654:10: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaAttributePtr' (aka 'struct _xmlSchemaAttribute *') increases required alignment from 4 to 8 [-Wcast-align]
+                attr = (xmlSchemaAttributePtr) item;
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:1669:10: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaElementPtr' (aka 'struct _xmlSchemaElement *') increases required alignment from 4 to 8 [-Wcast-align]
+                elem = (xmlSchemaElementPtr) item;
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:1686:30: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaIDCPtr' (aka 'struct _xmlSchemaIDC *') increases required alignment from 4 to 8 [-Wcast-align]
+            *buf = xmlStrcat(*buf, ((xmlSchemaIDCPtr) item)->name);
+                                    ^~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:1692:8: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaWildcardPtr' (aka 'struct _xmlSchemaWildcard *') increases required alignment from 4 to 8 [-Wcast-align]
+                    ((xmlSchemaWildcardPtr) item)->processContents));
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:2035:36: warning: cast from 'xmlSchemaAbstractCtxtPtr' (aka 'struct _xmlSchemaAbstractCtxt *') to 'xmlSchemaValidCtxtPtr' (aka 'struct _xmlSchemaValidCtxt *') increases required alignment from 4 to 8 [-Wcast-align]
+            xmlSchemaValidCtxtPtr vctxt = (xmlSchemaValidCtxtPtr) ctxt;
+                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:2088:37: warning: cast from 'xmlSchemaAbstractCtxtPtr' (aka 'struct _xmlSchemaAbstractCtxt *') to 'xmlSchemaParserCtxtPtr' (aka 'struct _xmlSchemaParserCtxt *') increases required alignment from 4 to 8 [-Wcast-align]
+            xmlSchemaParserCtxtPtr pctxt = (xmlSchemaParserCtxtPtr) ctxt;
+                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:2197:32: warning: cast from 'xmlSchemaAbstractCtxtPtr' (aka 'struct _xmlSchemaAbstractCtxt *') to 'xmlSchemaValidCtxtPtr' (aka 'struct _xmlSchemaValidCtxt *') increases required alignment from 4 to 8 [-Wcast-align]
+        xmlSchemaValidCtxtPtr vctxt = (xmlSchemaValidCtxtPtr) actxt;
+                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:2389:4: warning: cast from 'xmlSchemaAbstractCtxtPtr' (aka 'struct _xmlSchemaAbstractCtxt *') to 'xmlSchemaValidCtxtPtr' (aka 'struct _xmlSchemaValidCtxt *') increases required alignment from 4 to 8 [-Wcast-align]
+        (((xmlSchemaValidCtxtPtr) actxt)->inode != NULL))
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:2390:12: warning: cast from 'xmlSchemaAbstractCtxtPtr' (aka 'struct _xmlSchemaAbstractCtxt *') to 'xmlSchemaValidCtxtPtr' (aka 'struct _xmlSchemaValidCtxt *') increases required alignment from 4 to 8 [-Wcast-align]
+        return ( ((xmlSchemaValidCtxtPtr) actxt)->inode->nodeType);
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:5036:12: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaTypePtr' (aka 'struct _xmlSchemaType *') increases required alignment from 4 to 8 [-Wcast-align]
+                    if ((WXS_COMP_NAME(ret, xmlSchemaTypePtr) == name) &&
+                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:5007:30: note: expanded from macro 'WXS_COMP_NAME'
+#define WXS_COMP_NAME(c, t) ((t) (c))->name
+                             ^~~~~~~
+xmlschemas.c:5037:5: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaTypePtr' (aka 'struct _xmlSchemaType *') increases required alignment from 4 to 8 [-Wcast-align]
+                        (WXS_COMP_TNS(ret, xmlSchemaTypePtr) ==
+                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:5008:29: note: expanded from macro 'WXS_COMP_TNS'
+#define WXS_COMP_TNS(c, t) ((t) (c))->targetNamespace
+                            ^~~~~~~
+xmlschemas.c:5044:12: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaModelGroupDefPtr' (aka 'struct _xmlSchemaModelGroupDef *') increases required alignment from 4 to 8 [-Wcast-align]
+                    if ((WXS_COMP_NAME(ret,
+                         ^~~~~~~~~~~~~~~~~~
+xmlschemas.c:5007:30: note: expanded from macro 'WXS_COMP_NAME'
+#define WXS_COMP_NAME(c, t) ((t) (c))->name
+                             ^~~~~~~
+xmlschemas.c:5046:5: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaModelGroupDefPtr' (aka 'struct _xmlSchemaModelGroupDef *') increases required alignment from 4 to 8 [-Wcast-align]
+                        (WXS_COMP_TNS(ret,
+                         ^~~~~~~~~~~~~~~~~
+xmlschemas.c:5008:29: note: expanded from macro 'WXS_COMP_TNS'
+#define WXS_COMP_TNS(c, t) ((t) (c))->targetNamespace
+                            ^~~~~~~
+xmlschemas.c:5053:12: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaAttributeGroupPtr' (aka 'struct _xmlSchemaAttributeGroup *') increases required alignment from 4 to 8 [-Wcast-align]
+                    if ((WXS_COMP_NAME(ret,
+                         ^~~~~~~~~~~~~~~~~~
+xmlschemas.c:5007:30: note: expanded from macro 'WXS_COMP_NAME'
+#define WXS_COMP_NAME(c, t) ((t) (c))->name
+                             ^~~~~~~
+xmlschemas.c:5055:5: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaAttributeGroupPtr' (aka 'struct _xmlSchemaAttributeGroup *') increases required alignment from 4 to 8 [-Wcast-align]
+                        (WXS_COMP_TNS(ret,
+                         ^~~~~~~~~~~~~~~~~
+xmlschemas.c:5008:29: note: expanded from macro 'WXS_COMP_TNS'
+#define WXS_COMP_TNS(c, t) ((t) (c))->targetNamespace
+                            ^~~~~~~
+xmlschemas.c:7448:7: warning: cast from 'const xmlChar *' (aka 'const unsigned char *') to 'xmlSchemaAttributePtr' (aka 'struct _xmlSchemaAttribute *') increases required alignment from 1 to 8 [-Wcast-align]
+                if (WXS_ATTRUSE_DECL(use)->typeName != NULL) {
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:169:30: note: expanded from macro 'WXS_ATTRUSE_DECL'
+#define WXS_ATTRUSE_DECL(au) WXS_ATTR_CAST (WXS_ATTR_USE_CAST (au))->attrDecl
+                             ^
+xmlschemas.c:141:23: note: expanded from macro 'WXS_ATTR_CAST'
+#define WXS_ATTR_CAST (xmlSchemaAttributePtr)
+                      ^
+xmlschemas.c:11282:13: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaParticlePtr' (aka 'struct _xmlSchemaParticle *') increases required alignment from 4 to 8 [-Wcast-align]
+            part = (xmlSchemaParticlePtr) xmlSchemaParseElement(ctxt,
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:11335:10: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaTreeItemPtr' (aka 'struct _xmlSchemaTreeItem *') increases required alignment from 4 to 8 [-Wcast-align]
+                part = (xmlSchemaTreeItemPtr)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:14342:9: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaTypePtr' (aka 'struct _xmlSchemaType *') increases required alignment from 4 to 8 [-Wcast-align]
+        if ((! WXS_IS_ANYTYPE(baseItem)) &&
+               ^~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:221:10: note: expanded from macro 'WXS_IS_ANYTYPE'
+      ( (WXS_TYPE_CAST (i))->builtInType == XML_SCHEMAS_ANYTYPE))
+         ^~~~~~~~~~~~~~~~~
+xmlschemas.c:138:23: note: expanded from macro 'WXS_TYPE_CAST'
+#define WXS_TYPE_CAST (xmlSchemaTypePtr)
+                      ^
+xmlschemas.c:15067:6: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaModelGroupDefPtr' (aka 'struct _xmlSchemaModelGroupDef *') increases required alignment from 4 to 8 [-Wcast-align]
+            WXS_MODEL_GROUPDEF_CAST xmlSchemaGetNamedComponent(ctxt->schema,
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:144:33: note: expanded from macro 'WXS_MODEL_GROUPDEF_CAST'
+#define WXS_MODEL_GROUPDEF_CAST (xmlSchemaModelGroupDefPtr)
+                                ^
+xmlschemas.c:18580:35: warning: cast from 'xmlSchemaAbstractCtxtPtr' (aka 'struct _xmlSchemaAbstractCtxt *') to 'xmlSchemaParserCtxtPtr' (aka 'struct _xmlSchemaParserCtxt *') increases required alignment from 4 to 8 [-Wcast-align]
+        return(xmlSchemaFixupComplexType(PCTXT_CAST actxt, type));
+                                         ^~~~~~~~~~~~~~~~
+xmlschemas.c:133:20: note: expanded from macro 'PCTXT_CAST'
+#define PCTXT_CAST (xmlSchemaParserCtxtPtr)
+                   ^
+xmlschemas.c:18582:42: warning: cast from 'xmlSchemaAbstractCtxtPtr' (aka 'struct _xmlSchemaAbstractCtxt *') to 'xmlSchemaParserCtxtPtr' (aka 'struct _xmlSchemaParserCtxt *') increases required alignment from 4 to 8 [-Wcast-align]
+        return(xmlSchemaFixupSimpleTypeStageTwo(PCTXT_CAST actxt, type));
+                                                ^~~~~~~~~~~~~~~~
+xmlschemas.c:133:20: note: expanded from macro 'PCTXT_CAST'
+#define PCTXT_CAST (xmlSchemaParserCtxtPtr)
+                   ^
+xmlschemas.c:19025:11: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaAttributeGroupPtr' (aka 'struct _xmlSchemaAttributeGroup *') increases required alignment from 4 to 8 [-Wcast-align]
+            gr = WXS_ATTR_GROUP_CAST ref->item;
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:140:29: note: expanded from macro 'WXS_ATTR_GROUP_CAST'
+#define WXS_ATTR_GROUP_CAST (xmlSchemaAttributeGroupPtr)
+                            ^
+xmlschemas.c:19172:11: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaAttributeGroupPtr' (aka 'struct _xmlSchemaAttributeGroup *') increases required alignment from 4 to 8 [-Wcast-align]
+            gr = WXS_ATTR_GROUP_CAST (WXS_QNAME_CAST use)->item;
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:140:29: note: expanded from macro 'WXS_ATTR_GROUP_CAST'
+#define WXS_ATTR_GROUP_CAST (xmlSchemaAttributeGroupPtr)
+                            ^
+xmlschemas.c:20022:10: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaModelGroupPtr' (aka 'struct _xmlSchemaModelGroup *') increases required alignment from 4 to 8 [-Wcast-align]
+            if (WXS_MODELGROUPDEF_MODEL(refItem) == NULL)
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:194:39: note: expanded from macro 'WXS_MODELGROUPDEF_MODEL'
+#define WXS_MODELGROUPDEF_MODEL(mgd) (WXS_MODEL_GROUP_CAST (mgd))->children
+                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:145:30: note: expanded from macro 'WXS_MODEL_GROUP_CAST'
+#define WXS_MODEL_GROUP_CAST (xmlSchemaModelGroupPtr)
+                             ^
+xmlschemas.c:20032:11: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaModelGroupPtr' (aka 'struct _xmlSchemaModelGroup *') increases required alignment from 4 to 8 [-Wcast-align]
+            if ((WXS_MODELGROUPDEF_MODEL(refItem))->type ==
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:194:39: note: expanded from macro 'WXS_MODELGROUPDEF_MODEL'
+#define WXS_MODELGROUPDEF_MODEL(mgd) (WXS_MODEL_GROUP_CAST (mgd))->children
+                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:145:30: note: expanded from macro 'WXS_MODEL_GROUP_CAST'
+#define WXS_MODEL_GROUP_CAST (xmlSchemaModelGroupPtr)
+                             ^
+xmlschemas.c:20055:27: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaTreeItemPtr' (aka 'struct _xmlSchemaTreeItem *') increases required alignment from 4 to 8 [-Wcast-align]
+            particle->children = (xmlSchemaTreeItemPtr) refItem;
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:20061:27: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaTreeItemPtr' (aka 'struct _xmlSchemaTreeItem *') increases required alignment from 4 to 8 [-Wcast-align]
+            particle->children = (xmlSchemaTreeItemPtr) refItem;
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:20367:4: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaIDCPtr' (aka 'struct _xmlSchemaIDC *') increases required alignment from 4 to 8 [-Wcast-align]
+                ((xmlSchemaIDCPtr) idc->ref->item)->nbFields) {
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:20371:11: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaIDCPtr' (aka 'struct _xmlSchemaIDC *') increases required alignment from 4 to 8 [-Wcast-align]
+                refer = (xmlSchemaIDCPtr) idc->ref->item;
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:20497:8: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaTypePtr' (aka 'struct _xmlSchemaType *') increases required alignment from 4 to 8 [-Wcast-align]
+                if ((WXS_TYPE_CAST prev)->flags &
+                     ^~~~~~~~~~~~~~~~~~
+xmlschemas.c:138:23: note: expanded from macro 'WXS_TYPE_CAST'
+#define WXS_TYPE_CAST (xmlSchemaTypePtr)
+                      ^
+xmlschemas.c:20504:4: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaTypePtr' (aka 'struct _xmlSchemaType *') increases required alignment from 4 to 8 [-Wcast-align]
+                (WXS_TYPE_CAST prev)->flags |= XML_SCHEMAS_TYPE_REDEFINED;
+                 ^~~~~~~~~~~~~~~~~~
+xmlschemas.c:138:23: note: expanded from macro 'WXS_TYPE_CAST'
+#define WXS_TYPE_CAST (xmlSchemaTypePtr)
+                      ^
+xmlschemas.c:20510:4: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaTypePtr' (aka 'struct _xmlSchemaType *') increases required alignment from 4 to 8 [-Wcast-align]
+                ((xmlSchemaTypePtr) item)->baseType =
+                 ^~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:20511:7: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaTypePtr' (aka 'struct _xmlSchemaType *') increases required alignment from 4 to 8 [-Wcast-align]
+                    (xmlSchemaTypePtr) prev;
+                    ^~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:20514:8: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaModelGroupDefPtr' (aka 'struct _xmlSchemaModelGroupDef *') increases required alignment from 4 to 8 [-Wcast-align]
+                if ((WXS_MODEL_GROUPDEF_CAST prev)->flags &
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:144:33: note: expanded from macro 'WXS_MODEL_GROUPDEF_CAST'
+#define WXS_MODEL_GROUPDEF_CAST (xmlSchemaModelGroupDefPtr)
+                                ^
+xmlschemas.c:20521:4: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaModelGroupDefPtr' (aka 'struct _xmlSchemaModelGroupDef *') increases required alignment from 4 to 8 [-Wcast-align]
+                (WXS_MODEL_GROUPDEF_CAST prev)->flags |=
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:144:33: note: expanded from macro 'WXS_MODEL_GROUPDEF_CAST'
+#define WXS_MODEL_GROUPDEF_CAST (xmlSchemaModelGroupDefPtr)
+                                ^
+xmlschemas.c:20528:8: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaParticlePtr' (aka 'struct _xmlSchemaParticle *') increases required alignment from 4 to 8 [-Wcast-align]
+                    (WXS_PTC_CAST redef->reference)->children =
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:137:22: note: expanded from macro 'WXS_PTC_CAST'
+#define WXS_PTC_CAST (xmlSchemaParticlePtr)
+                     ^
+xmlschemas.c:20529:4: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaTreeItemPtr' (aka 'struct _xmlSchemaTreeItem *') increases required alignment from 4 to 8 [-Wcast-align]
+                        WXS_TREE_CAST prev;
+                        ^~~~~~~~~~~~~~~~~~
+xmlschemas.c:136:23: note: expanded from macro 'WXS_TREE_CAST'
+#define WXS_TREE_CAST (xmlSchemaTreeItemPtr)
+                      ^
+xmlschemas.c:20534:8: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaAttributeGroupPtr' (aka 'struct _xmlSchemaAttributeGroup *') increases required alignment from 4 to 8 [-Wcast-align]
+                if ((WXS_ATTR_GROUP_CAST prev)->flags &
+                     ^~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:140:29: note: expanded from macro 'WXS_ATTR_GROUP_CAST'
+#define WXS_ATTR_GROUP_CAST (xmlSchemaAttributeGroupPtr)
+                            ^
+xmlschemas.c:20540:4: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaAttributeGroupPtr' (aka 'struct _xmlSchemaAttributeGroup *') increases required alignment from 4 to 8 [-Wcast-align]
+                (WXS_ATTR_GROUP_CAST prev)->flags |=
+                 ^~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:140:29: note: expanded from macro 'WXS_ATTR_GROUP_CAST'
+#define WXS_ATTR_GROUP_CAST (xmlSchemaAttributeGroupPtr)
+                            ^
+xmlschemas.c:20549:8: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaQNameRefPtr' (aka 'struct _xmlSchemaQNameRef *') increases required alignment from 4 to 8 [-Wcast-align]
+                    (WXS_QNAME_CAST redef->reference)->item = prev;
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:147:24: note: expanded from macro 'WXS_QNAME_CAST'
+#define WXS_QNAME_CAST (xmlSchemaQNameRefPtr)
+                       ^
+xmlschemas.c:20619:4: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaTypePtr' (aka 'struct _xmlSchemaType *') increases required alignment from 4 to 8 [-Wcast-align]
+                (WXS_TYPE_CAST redef->target)->name = NULL;
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:138:23: note: expanded from macro 'WXS_TYPE_CAST'
+#define WXS_TYPE_CAST (xmlSchemaTypePtr)
+                      ^
+xmlschemas.c:20655:8: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaAttributeGroupPtr' (aka 'struct _xmlSchemaAttributeGroup *') increases required alignment from 4 to 8 [-Wcast-align]
+                    (WXS_ATTR_GROUP_CAST item)->attrUses,
+                     ^~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:140:29: note: expanded from macro 'WXS_ATTR_GROUP_CAST'
+#define WXS_ATTR_GROUP_CAST (xmlSchemaAttributeGroupPtr)
+                            ^
+xmlschemas.c:20656:8: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaAttributeGroupPtr' (aka 'struct _xmlSchemaAttributeGroup *') increases required alignment from 4 to 8 [-Wcast-align]
+                    (WXS_ATTR_GROUP_CAST redef->target)->attrUses,
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:140:29: note: expanded from macro 'WXS_ATTR_GROUP_CAST'
+#define WXS_ATTR_GROUP_CAST (xmlSchemaAttributeGroupPtr)
+                            ^
+xmlschemas.c:20657:8: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaAttributeGroupPtr' (aka 'struct _xmlSchemaAttributeGroup *') increases required alignment from 4 to 8 [-Wcast-align]
+                    (WXS_ATTR_GROUP_CAST item)->attributeWildcard,
+                     ^~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:140:29: note: expanded from macro 'WXS_ATTR_GROUP_CAST'
+#define WXS_ATTR_GROUP_CAST (xmlSchemaAttributeGroupPtr)
+                            ^
+xmlschemas.c:20658:8: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaAttributeGroupPtr' (aka 'struct _xmlSchemaAttributeGroup *') increases required alignment from 4 to 8 [-Wcast-align]
+                    (WXS_ATTR_GROUP_CAST redef->target)->attributeWildcard);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:140:29: note: expanded from macro 'WXS_ATTR_GROUP_CAST'
+#define WXS_ATTR_GROUP_CAST (xmlSchemaAttributeGroupPtr)
+                            ^
+xmlschemas.c:20711:7: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaTypePtr' (aka 'struct _xmlSchemaType *') increases required alignment from 4 to 8 [-Wcast-align]
+                if (WXS_REDEFINED_TYPE(item))
+                    ^~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:20412:3: note: expanded from macro 'WXS_REDEFINED_TYPE'
+(((xmlSchemaTypePtr) item)->flags & XML_SCHEMAS_TYPE_REDEFINED)
+  ^~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:20713:11: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaTypePtr' (aka 'struct _xmlSchemaType *') increases required alignment from 4 to 8 [-Wcast-align]
+                name = (WXS_TYPE_CAST item)->name;
+                        ^~~~~~~~~~~~~~~~~~
+xmlschemas.c:138:23: note: expanded from macro 'WXS_TYPE_CAST'
+#define WXS_TYPE_CAST (xmlSchemaTypePtr)
+                      ^
+xmlschemas.c:20717:11: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaElementPtr' (aka 'struct _xmlSchemaElement *') increases required alignment from 4 to 8 [-Wcast-align]
+                name = (WXS_ELEM_CAST item)->name;
+                        ^~~~~~~~~~~~~~~~~~
+xmlschemas.c:139:23: note: expanded from macro 'WXS_ELEM_CAST'
+#define WXS_ELEM_CAST (xmlSchemaElementPtr)
+                      ^
+xmlschemas.c:20721:11: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaAttributePtr' (aka 'struct _xmlSchemaAttribute *') increases required alignment from 4 to 8 [-Wcast-align]
+                name = (WXS_ATTR_CAST item)->name;
+                        ^~~~~~~~~~~~~~~~~~
+xmlschemas.c:141:23: note: expanded from macro 'WXS_ATTR_CAST'
+#define WXS_ATTR_CAST (xmlSchemaAttributePtr)
+                      ^
+xmlschemas.c:20725:7: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaModelGroupDefPtr' (aka 'struct _xmlSchemaModelGroupDef *') increases required alignment from 4 to 8 [-Wcast-align]
+                if (WXS_REDEFINED_MODEL_GROUP_DEF(item))
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:20415:3: note: expanded from macro 'WXS_REDEFINED_MODEL_GROUP_DEF'
+(((xmlSchemaModelGroupDefPtr) item)->flags & XML_SCHEMA_MODEL_GROUP_DEF_REDEFINED)
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:20727:11: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaModelGroupDefPtr' (aka 'struct _xmlSchemaModelGroupDef *') increases required alignment from 4 to 8 [-Wcast-align]
+                name = (WXS_MODEL_GROUPDEF_CAST item)->name;
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:144:33: note: expanded from macro 'WXS_MODEL_GROUPDEF_CAST'
+#define WXS_MODEL_GROUPDEF_CAST (xmlSchemaModelGroupDefPtr)
+                                ^
+xmlschemas.c:20731:7: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaAttributeGroupPtr' (aka 'struct _xmlSchemaAttributeGroup *') increases required alignment from 4 to 8 [-Wcast-align]
+                if (WXS_REDEFINED_ATTR_GROUP(item))
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:20418:3: note: expanded from macro 'WXS_REDEFINED_ATTR_GROUP'
+(((xmlSchemaAttributeGroupPtr) item)->flags & XML_SCHEMAS_ATTRGROUP_REDEFINED)
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:20733:11: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaAttributeGroupPtr' (aka 'struct _xmlSchemaAttributeGroup *') increases required alignment from 4 to 8 [-Wcast-align]
+                name = (WXS_ATTR_GROUP_CAST item)->name;
+                        ^~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:140:29: note: expanded from macro 'WXS_ATTR_GROUP_CAST'
+#define WXS_ATTR_GROUP_CAST (xmlSchemaAttributeGroupPtr)
+                            ^
+xmlschemas.c:20739:11: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaIDCPtr' (aka 'struct _xmlSchemaIDC *') increases required alignment from 4 to 8 [-Wcast-align]
+                name = (WXS_IDC_CAST item)->name;
+                        ^~~~~~~~~~~~~~~~~
+xmlschemas.c:146:22: note: expanded from macro 'WXS_IDC_CAST'
+#define WXS_IDC_CAST (xmlSchemaIDCPtr)
+                     ^
+xmlschemas.c:20743:11: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaNotationPtr' (aka 'struct _xmlSchemaNotation *') increases required alignment from 4 to 8 [-Wcast-align]
+                name = ((xmlSchemaNotationPtr) item)->name;
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:23175:15: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaIDCPtr' (aka 'struct _xmlSchemaIDC *') increases required alignment from 4 to 8 [-Wcast-align]
+            refIdc = (xmlSchemaIDCPtr) idc->ref->item;
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:23777:7: warning: cast from 'xmlSchemaBasicItemPtr' (aka 'struct _xmlSchemaBasicItem *') to 'xmlSchemaIDCPtr' (aka 'struct _xmlSchemaIDC *') increases required alignment from 4 to 8 [-Wcast-align]
+                if ((xmlSchemaIDCPtr) matcher->aidc->def->ref->item ==
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:24523:4: warning: cast from 'xmlSchemaAbstractCtxtPtr' (aka 'struct _xmlSchemaAbstractCtxt *') to 'xmlSchemaValidCtxtPtr' (aka 'struct _xmlSchemaValidCtxt *') increases required alignment from 4 to 8 [-Wcast-align]
+                        (xmlSchemaValidCtxtPtr) actxt,
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:24524:5: warning: cast from 'xmlSchemaAbstractCtxtPtr' (aka 'struct _xmlSchemaAbstractCtxt *') to 'xmlSchemaValidCtxtPtr' (aka 'struct _xmlSchemaValidCtxt *') increases required alignment from 4 to 8 [-Wcast-align]
+                        ((xmlSchemaValidCtxtPtr) actxt)->schema,
+                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:24528:36: warning: cast from 'xmlSchemaAbstractCtxtPtr' (aka 'struct _xmlSchemaAbstractCtxt *') to 'xmlSchemaValidCtxtPtr' (aka 'struct _xmlSchemaValidCtxt *') increases required alignment from 4 to 8 [-Wcast-align]
+                    ret = xmlSchemaValidateQName((xmlSchemaValidCtxtPtr) actxt,
+                                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmlschemas.c:24545:5: warning: cast from 'xmlSchemaAbstractCtxtPtr' (aka 'struct _xmlSchemaAbstractCtxt *') to 'xmlSchemaParserCtxtPtr' (aka 'struct _xmlSchemaParserCtxt *') increases required alignment from 4 to 8 [-Wcast-align]
+                        ((xmlSchemaParserCtxtPtr) actxt)->schema, node,
+                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+99 warnings generated.
+mv -f .deps/xmlschemas.Tpo .deps/xmlschemas.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xmlschemastypes.lo -MD -MP -MF .deps/xmlschemastypes.Tpo -c -o xmlschemastypes.lo xmlschemastypes.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xmlschemastypes.lo -MD -MP -MF .deps/xmlschemastypes.Tpo -c xmlschemastypes.c -o xmlschemastypes.o
+xmlschemastypes.c:5195:12: warning: case value not in enumerated type 'xmlSchemaTypeType' [-Wswitch]
+            case XML_SCHEMAS_NOTATION:
+                 ^
+xmlschemastypes.c:5190:11: warning: case value not in enumerated type 'xmlSchemaTypeType' [-Wswitch]
+            case XML_SCHEMAS_ANYURI:
+                 ^
+xmlschemastypes.c:5274:57: warning: implicit conversion from enumeration type 'xmlSchemaValType' to different enumeration type 'xmlSchemaTypeType' [-Wenum-conversion]
+    return (xmlSchemaValidateLengthFacetInternal(facet, valType, value, val,
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~        ^~~~~~~
+3 warnings generated.
+mv -f .deps/xmlschemastypes.Tpo .deps/xmlschemastypes.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xmlunicode.lo -MD -MP -MF .deps/xmlunicode.Tpo -c -o xmlunicode.lo xmlunicode.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xmlunicode.lo -MD -MP -MF .deps/xmlunicode.Tpo -c xmlunicode.c -o xmlunicode.o
+mv -f .deps/xmlunicode.Tpo .deps/xmlunicode.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xmlreader.lo -MD -MP -MF .deps/xmlreader.Tpo -c -o xmlreader.lo xmlreader.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xmlreader.lo -MD -MP -MF .deps/xmlreader.Tpo -c xmlreader.c -o xmlreader.o
+mv -f .deps/xmlreader.Tpo .deps/xmlreader.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT relaxng.lo -MD -MP -MF .deps/relaxng.Tpo -c -o relaxng.lo relaxng.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT relaxng.lo -MD -MP -MF .deps/relaxng.Tpo -c relaxng.c -o relaxng.o
+mv -f .deps/relaxng.Tpo .deps/relaxng.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT dict.lo -MD -MP -MF .deps/dict.Tpo -c -o dict.lo dict.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT dict.lo -MD -MP -MF .deps/dict.Tpo -c dict.c -o dict.o
+mv -f .deps/dict.Tpo .deps/dict.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT SAX2.lo -MD -MP -MF .deps/SAX2.Tpo -c -o SAX2.lo SAX2.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT SAX2.lo -MD -MP -MF .deps/SAX2.Tpo -c SAX2.c -o SAX2.o
+mv -f .deps/SAX2.Tpo .deps/SAX2.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xmlwriter.lo -MD -MP -MF .deps/xmlwriter.Tpo -c -o xmlwriter.lo xmlwriter.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xmlwriter.lo -MD -MP -MF .deps/xmlwriter.Tpo -c xmlwriter.c -o xmlwriter.o
+mv -f .deps/xmlwriter.Tpo .deps/xmlwriter.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT legacy.lo -MD -MP -MF .deps/legacy.Tpo -c -o legacy.lo legacy.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT legacy.lo -MD -MP -MF .deps/legacy.Tpo -c legacy.c -o legacy.o
+mv -f .deps/legacy.Tpo .deps/legacy.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT chvalid.lo -MD -MP -MF .deps/chvalid.Tpo -c -o chvalid.lo chvalid.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT chvalid.lo -MD -MP -MF .deps/chvalid.Tpo -c chvalid.c -o chvalid.o
+mv -f .deps/chvalid.Tpo .deps/chvalid.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT pattern.lo -MD -MP -MF .deps/pattern.Tpo -c -o pattern.lo pattern.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT pattern.lo -MD -MP -MF .deps/pattern.Tpo -c pattern.c -o pattern.o
+pattern.c:308:43: warning: for loop has empty body [-Wempty-body]
+        for (i = 0;namespaces[2 * i] != NULL;i++);
+                                                 ^
+pattern.c:308:43: note: put the semicolon on a separate line to silence this warning
+1 warning generated.
+mv -f .deps/pattern.Tpo .deps/pattern.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xmlsave.lo -MD -MP -MF .deps/xmlsave.Tpo -c -o xmlsave.lo xmlsave.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xmlsave.lo -MD -MP -MF .deps/xmlsave.Tpo -c xmlsave.c -o xmlsave.o
+mv -f .deps/xmlsave.Tpo .deps/xmlsave.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xmlmodule.lo -MD -MP -MF .deps/xmlmodule.Tpo -c -o xmlmodule.lo xmlmodule.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xmlmodule.lo -MD -MP -MF .deps/xmlmodule.Tpo -c xmlmodule.c -o xmlmodule.o
+mv -f .deps/xmlmodule.Tpo .deps/xmlmodule.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT schematron.lo -MD -MP -MF .deps/schematron.Tpo -c -o schematron.lo schematron.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT schematron.lo -MD -MP -MF .deps/schematron.Tpo -c schematron.c -o schematron.o
+mv -f .deps/schematron.Tpo .deps/schematron.Plo
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls ./libxml2.syms -version-info 9:8:7   -o libxml2.la -rpath /opt/mydir/libxml2/linux-gcc3/lib SAX.lo entities.lo encoding.lo error.lo parserInternals.lo parser.lo tree.lo hash.lo list.lo xmlIO.lo xmlmemory.lo uri.lo valid.lo xlink.lo HTMLparser.lo HTMLtree.lo debugXML.lo xpath.lo xpointer.lo xinclude.lo nanohttp.lo nanoftp.lo DOCBparser.lo catalog.lo globals.lo threads.lo c14n.lo xmlstring.lo xmlregexp.lo xmlschemas.lo xmlschemastypes.lo xmlunicode.lo xmlreader.lo relaxng.lo dict.lo SAX2.lo xmlwriter.lo legacy.lo chvalid.lo pattern.lo xmlsave.lo xmlmodule.lo schematron.lo -lpthread -lz -liconv -lm  
+libtool: link: rm -fr  .libs/libxml2.2.dylib .libs/libxml2.2.dylib.dSYM .libs/libxml2.a .libs/libxml2.dylib .libs/libxml2.la .libs/libxml2.lai
+libtool: link: ar cru .libs/libxml2.a  SAX.o entities.o encoding.o error.o parserInternals.o parser.o tree.o hash.o list.o xmlIO.o xmlmemory.o uri.o valid.o xlink.o HTMLparser.o HTMLtree.o debugXML.o xpath.o xpointer.o xinclude.o nanohttp.o nanoftp.o DOCBparser.o catalog.o globals.o threads.o c14n.o xmlstring.o xmlregexp.o xmlschemas.o xmlschemastypes.o xmlunicode.o xmlreader.o relaxng.o dict.o SAX2.o xmlwriter.o legacy.o chvalid.o pattern.o xmlsave.o xmlmodule.o schematron.o
+libtool: link: ranlib .libs/libxml2.a
+libtool: link: ( cd ".libs" && rm -f "libxml2.la" && ln -s "../libxml2.la" "libxml2.la" )
+gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xmllint.o -MD -MP -MF .deps/xmllint.Tpo -c -o xmllint.o xmllint.c
+mv -f .deps/xmllint.Tpo .deps/xmllint.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o xmllint xmllint.o ./libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o xmllint xmllint.o  ./.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xmlcatalog.o -MD -MP -MF .deps/xmlcatalog.Tpo -c -o xmlcatalog.o xmlcatalog.c
+mv -f .deps/xmlcatalog.Tpo .deps/xmlcatalog.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o xmlcatalog xmlcatalog.o ./libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o xmlcatalog xmlcatalog.o  ./.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT testSchemas.o -MD -MP -MF .deps/testSchemas.Tpo -c -o testSchemas.o testSchemas.c
+mv -f .deps/testSchemas.Tpo .deps/testSchemas.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o testSchemas testSchemas.o ./libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o testSchemas testSchemas.o  ./.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT testRelax.o -MD -MP -MF .deps/testRelax.Tpo -c -o testRelax.o testRelax.c
+mv -f .deps/testRelax.Tpo .deps/testRelax.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o testRelax testRelax.o ./libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o testRelax testRelax.o  ./.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT testSAX.o -MD -MP -MF .deps/testSAX.Tpo -c -o testSAX.o testSAX.c
+mv -f .deps/testSAX.Tpo .deps/testSAX.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o testSAX testSAX.o ./libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o testSAX testSAX.o  ./.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT testHTML.o -MD -MP -MF .deps/testHTML.Tpo -c -o testHTML.o testHTML.c
+mv -f .deps/testHTML.Tpo .deps/testHTML.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o testHTML testHTML.o ./libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o testHTML testHTML.o  ./.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT testXPath.o -MD -MP -MF .deps/testXPath.Tpo -c -o testXPath.o testXPath.c
+mv -f .deps/testXPath.Tpo .deps/testXPath.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o testXPath testXPath.o ./libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o testXPath testXPath.o  ./.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT testURI.o -MD -MP -MF .deps/testURI.Tpo -c -o testURI.o testURI.c
+mv -f .deps/testURI.Tpo .deps/testURI.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o testURI testURI.o ./libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o testURI testURI.o  ./.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT testThreads.o -MD -MP -MF .deps/testThreads.Tpo -c -o testThreads.o testThreads.c
+mv -f .deps/testThreads.Tpo .deps/testThreads.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o testThreads testThreads.o ./libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o testThreads testThreads.o  ./.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT testC14N.o -MD -MP -MF .deps/testC14N.Tpo -c -o testC14N.o testC14N.c
+mv -f .deps/testC14N.Tpo .deps/testC14N.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o testC14N testC14N.o ./libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o testC14N testC14N.o  ./.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT testAutomata.o -MD -MP -MF .deps/testAutomata.Tpo -c -o testAutomata.o testAutomata.c
+mv -f .deps/testAutomata.Tpo .deps/testAutomata.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o testAutomata testAutomata.o ./libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o testAutomata testAutomata.o  ./.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT testRegexp.o -MD -MP -MF .deps/testRegexp.Tpo -c -o testRegexp.o testRegexp.c
+mv -f .deps/testRegexp.Tpo .deps/testRegexp.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o testRegexp testRegexp.o ./libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o testRegexp testRegexp.o  ./.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT testReader.o -MD -MP -MF .deps/testReader.Tpo -c -o testReader.o testReader.c
+mv -f .deps/testReader.Tpo .deps/testReader.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o testReader testReader.o ./libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o testReader testReader.o  ./.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT testapi.o -MD -MP -MF .deps/testapi.Tpo -c -o testapi.o testapi.c
+testapi.c:294:35: warning: illegal character encoding in character literal [-Winvalid-source-encoding]
+    if (no == 2) return((xmlChar) '<F8>');
+                                  ^
+testapi.c:402:39: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+    if (no == 2) return((xmlChar *) "n<F8>ne");
+                                      ^~~~
+testapi.c:18773:112: warning: comparison of distinct pointer types ('xmlChar *' (aka 'unsigned char *') and 'const char *') [-Wcompare-distinct-pointer-types]
+        if ((buf != NULL) && (scheme == XML_BUFFER_ALLOC_IMMUTABLE) && (buf->content != NULL) && (buf->content != static_buf_content)) { xmlFree(buf->content); buf->content = NULL;}
+                                                                                                  ~~~~~~~~~~~~ ^  ~~~~~~~~~~~~~~~~~~
+testapi.c:17989:25: warning: unused function 'gen_xmlSchematronPtr' [-Wunused-function]
+static xmlSchematronPtr gen_xmlSchematronPtr(int no ATTRIBUTE_UNUSED, int nr ATTRIBUTE_UNUSED) {
+                        ^
+testapi.c:17992:13: warning: unused function 'des_xmlSchematronPtr' [-Wunused-function]
+static void des_xmlSchematronPtr(int no ATTRIBUTE_UNUSED, xmlSchematronPtr val ATTRIBUTE_UNUSED, int nr ATTRIBUTE_UNUSED) {
+            ^
+testapi.c:18009:35: warning: unused function 'gen_xmlSchematronParserCtxtPtr' [-Wunused-function]
+static xmlSchematronParserCtxtPtr gen_xmlSchematronParserCtxtPtr(int no ATTRIBUTE_UNUSED, int nr ATTRIBUTE_UNUSED) {
+                                  ^
+testapi.c:18012:13: warning: unused function 'des_xmlSchematronParserCtxtPtr' [-Wunused-function]
+static void des_xmlSchematronParserCtxtPtr(int no ATTRIBUTE_UNUSED, xmlSchematronParserCtxtPtr val ATTRIBUTE_UNUSED, int nr ATTRIBUTE_UNUSED) {
+            ^
+testapi.c:34157:27: warning: unused function 'gen_xmlSAXHandlerPtr_ptr' [-Wunused-function]
+static xmlSAXHandlerPtr * gen_xmlSAXHandlerPtr_ptr(int no ATTRIBUTE_UNUSED, int nr ATTRIBUTE_UNUSED) {
+                          ^
+testapi.c:34160:13: warning: unused function 'des_xmlSAXHandlerPtr_ptr' [-Wunused-function]
+static void des_xmlSAXHandlerPtr_ptr(int no ATTRIBUTE_UNUSED, xmlSAXHandlerPtr * val ATTRIBUTE_UNUSED, int nr ATTRIBUTE_UNUSED) {
+            ^
+9 warnings generated.
+mv -f .deps/testapi.Tpo .deps/testapi.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o testapi testapi.o ./libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o testapi testapi.o  ./.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT testModule.o -MD -MP -MF .deps/testModule.Tpo -c -o testModule.o testModule.c
+mv -f .deps/testModule.Tpo .deps/testModule.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o testModule testModule.o ./libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o testModule testModule.o  ./.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT runtest.o -MD -MP -MF .deps/runtest.Tpo -c -o runtest.o runtest.c
+runtest.c:2731:26: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+    "urip://example.com/r<E9>sum<E9>.html",
+                         ^~~~   ~~~~
+1 warning generated.
+mv -f .deps/runtest.Tpo .deps/runtest.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o runtest runtest.o ./libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o runtest runtest.o  ./.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT runsuite.o -MD -MP -MF .deps/runsuite.Tpo -c -o runsuite.o runsuite.c
+mv -f .deps/runsuite.Tpo .deps/runsuite.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o runsuite runsuite.o ./libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o runsuite runsuite.o  ./.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT testchar.o -MD -MP -MF .deps/testchar.Tpo -c -o testchar.o testchar.c
+mv -f .deps/testchar.Tpo .deps/testchar.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o testchar testchar.o ./libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o testchar testchar.o  ./.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT testdict.o -MD -MP -MF .deps/testdict.Tpo -c -o testdict.o testdict.c
+mv -f .deps/testdict.Tpo .deps/testdict.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o testdict testdict.o ./libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o testdict testdict.o  ./.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT runxmlconf.o -MD -MP -MF .deps/runxmlconf.Tpo -c -o runxmlconf.o runxmlconf.c
+mv -f .deps/runxmlconf.Tpo .deps/runxmlconf.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o runxmlconf runxmlconf.o ./libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o runxmlconf runxmlconf.o  ./.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT      -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT testrecurse.o -MD -MP -MF .deps/testrecurse.Tpo -c -o testrecurse.o testrecurse.c
+mv -f .deps/testrecurse.Tpo .deps/testrecurse.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o testrecurse testrecurse.o ./libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o testrecurse testrecurse.o  ./.libs/libxml2.a -lpthread -lz -liconv -lm
+sed -e 's?\@XML_LIBDIR\@?-L/opt/mydir/libxml2/linux-gcc3/lib?g' \
+	    -e 's?\@XML_INCLUDEDIR\@?-I/opt/mydir/libxml2/linux-gcc3/include/libxml2?g' \
+	    -e 's?\@VERSION\@?2.7.8?g' \
+	    -e 's?\@XML_LIBS\@?-lxml2 -lz -lpthread  -liconv -lm ?g' \
+	       < ./xml2Conf.sh.in > xml2Conf.tmp \
+	&& mv xml2Conf.tmp xml2Conf.sh
+Making all in doc
+Making all in devhelp
+make[3]: Nothing to be done for `all'.
+Making all in examples
+gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../include -I./include  -D_REENTRANT     -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xpath2.o -MD -MP -MF .deps/xpath2.Tpo -c -o xpath2.o xpath2.c
+mv -f .deps/xpath2.Tpo .deps/xpath2.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o xpath2 xpath2.o ../../libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o xpath2 xpath2.o  ../../.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../include -I./include  -D_REENTRANT     -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT reader1.o -MD -MP -MF .deps/reader1.Tpo -c -o reader1.o reader1.c
+mv -f .deps/reader1.Tpo .deps/reader1.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o reader1 reader1.o ../../libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o reader1 reader1.o  ../../.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../include -I./include  -D_REENTRANT     -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT reader4.o -MD -MP -MF .deps/reader4.Tpo -c -o reader4.o reader4.c
+mv -f .deps/reader4.Tpo .deps/reader4.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o reader4 reader4.o ../../libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o reader4 reader4.o  ../../.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../include -I./include  -D_REENTRANT     -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT parse2.o -MD -MP -MF .deps/parse2.Tpo -c -o parse2.o parse2.c
+mv -f .deps/parse2.Tpo .deps/parse2.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o parse2 parse2.o ../../libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o parse2 parse2.o  ../../.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../include -I./include  -D_REENTRANT     -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT reader2.o -MD -MP -MF .deps/reader2.Tpo -c -o reader2.o reader2.c
+mv -f .deps/reader2.Tpo .deps/reader2.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o reader2 reader2.o ../../libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o reader2 reader2.o  ../../.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../include -I./include  -D_REENTRANT     -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT parse3.o -MD -MP -MF .deps/parse3.Tpo -c -o parse3.o parse3.c
+mv -f .deps/parse3.Tpo .deps/parse3.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o parse3 parse3.o ../../libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o parse3 parse3.o  ../../.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../include -I./include  -D_REENTRANT     -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT reader3.o -MD -MP -MF .deps/reader3.Tpo -c -o reader3.o reader3.c
+mv -f .deps/reader3.Tpo .deps/reader3.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o reader3 reader3.o ../../libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o reader3 reader3.o  ../../.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../include -I./include  -D_REENTRANT     -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT tree2.o -MD -MP -MF .deps/tree2.Tpo -c -o tree2.o tree2.c
+mv -f .deps/tree2.Tpo .deps/tree2.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o tree2 tree2.o ../../libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o tree2 tree2.o  ../../.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../include -I./include  -D_REENTRANT     -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT parse4.o -MD -MP -MF .deps/parse4.Tpo -c -o parse4.o parse4.c
+mv -f .deps/parse4.Tpo .deps/parse4.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o parse4 parse4.o ../../libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o parse4 parse4.o  ../../.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../include -I./include  -D_REENTRANT     -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT io2.o -MD -MP -MF .deps/io2.Tpo -c -o io2.o io2.c
+mv -f .deps/io2.Tpo .deps/io2.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o io2 io2.o ../../libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o io2 io2.o  ../../.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../include -I./include  -D_REENTRANT     -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT testWriter.o -MD -MP -MF .deps/testWriter.Tpo -c -o testWriter.o testWriter.c
+testWriter.c:105:64: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+    tmp = ConvertInput("This is a comment with special chars: <<E4><F6><FC>>",
+                                                               ^~~~~~~~~~~~
+testWriter.c:142:26: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+    tmp = ConvertInput("<<E4><F6><FC>>", MY_ENCODING);
+                         ^~~~~~~~~~~~
+testWriter.c:163:51: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]
+                                         "%010d", 53535L);
+                                          ~~~~~   ^~~~~~
+                                          %010ld
+testWriter.c:180:26: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+    tmp = ConvertInput("M<FC>ller", MY_ENCODING);
+                         ^~~~
+testWriter.c:190:26: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+    tmp = ConvertInput("J<F6>rg", MY_ENCODING);
+                         ^~~~
+testWriter.c:384:64: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+    tmp = ConvertInput("This is a comment with special chars: <<E4><F6><FC>>",
+                                                               ^~~~~~~~~~~~
+testWriter.c:421:26: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+    tmp = ConvertInput("<<E4><F6><FC>>", MY_ENCODING);
+                         ^~~~~~~~~~~~
+testWriter.c:442:51: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]
+                                         "%010d", 53535L);
+                                          ~~~~~   ^~~~~~
+                                          %010ld
+testWriter.c:459:26: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+    tmp = ConvertInput("M<FC>ller", MY_ENCODING);
+                         ^~~~
+testWriter.c:469:26: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+    tmp = ConvertInput("J<F6>rg", MY_ENCODING);
+                         ^~~~
+testWriter.c:659:64: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+    tmp = ConvertInput("This is a comment with special chars: <<E4><F6><FC>>",
+                                                               ^~~~~~~~~~~~
+testWriter.c:692:26: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+    tmp = ConvertInput("<<E4><F6><FC>>", MY_ENCODING);
+                         ^~~~~~~~~~~~
+testWriter.c:712:51: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]
+                                         "%010d", 53535L);
+                                          ~~~~~   ^~~~~~
+                                          %010ld
+testWriter.c:729:26: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+    tmp = ConvertInput("M<FC>ller", MY_ENCODING);
+                         ^~~~
+testWriter.c:738:26: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+    tmp = ConvertInput("J<F6>rg", MY_ENCODING);
+                         ^~~~
+testWriter.c:923:64: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+    tmp = ConvertInput("This is a comment with special chars: <<E4><F6><FC>>",
+                                                               ^~~~~~~~~~~~
+testWriter.c:958:26: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+    tmp = ConvertInput("<<E4><F6><FC>>", MY_ENCODING);
+                         ^~~~~~~~~~~~
+testWriter.c:978:51: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]
+                                         "%010d", 53535L);
+                                          ~~~~~   ^~~~~~
+                                          %010ld
+testWriter.c:995:26: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+    tmp = ConvertInput("M<FC>ller", MY_ENCODING);
+                         ^~~~
+testWriter.c:1004:26: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+    tmp = ConvertInput("J<F6>rg", MY_ENCODING);
+                         ^~~~
+20 warnings generated.
+mv -f .deps/testWriter.Tpo .deps/testWriter.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o testWriter testWriter.o ../../libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o testWriter testWriter.o  ../../.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../include -I./include  -D_REENTRANT     -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT io1.o -MD -MP -MF .deps/io1.Tpo -c -o io1.o io1.c
+mv -f .deps/io1.Tpo .deps/io1.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o io1 io1.o ../../libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o io1 io1.o  ../../.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../include -I./include  -D_REENTRANT     -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xpath1.o -MD -MP -MF .deps/xpath1.Tpo -c -o xpath1.o xpath1.c
+mv -f .deps/xpath1.Tpo .deps/xpath1.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o xpath1 xpath1.o ../../libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o xpath1 xpath1.o  ../../.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../include -I./include  -D_REENTRANT     -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT parse1.o -MD -MP -MF .deps/parse1.Tpo -c -o parse1.o parse1.c
+mv -f .deps/parse1.Tpo .deps/parse1.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o parse1 parse1.o ../../libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o parse1 parse1.o  ../../.libs/libxml2.a -lpthread -lz -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../include -I./include  -D_REENTRANT     -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT tree1.o -MD -MP -MF .deps/tree1.Tpo -c -o tree1.o tree1.c
+mv -f .deps/tree1.Tpo .deps/tree1.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o tree1 tree1.o ../../libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o tree1 tree1.o  ../../.libs/libxml2.a -lpthread -lz -liconv -lm
+make[3]: Nothing to be done for `all-am'.
+Making all in example
+gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I../include -I./include  -D_REENTRANT     -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT gjobread.o -MD -MP -MF .deps/gjobread.Tpo -c -o gjobread.o gjobread.c
+mv -f .deps/gjobread.Tpo .deps/gjobread.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls   -o gjobread gjobread.o ../libxml2.la -lpthread -lz -liconv -lm  
+libtool: link: gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -o gjobread gjobread.o  ../.libs/libxml2.a -lpthread -lz -liconv -lm
+Making all in xstc
+make[2]: Nothing to be done for `all'.
+Making all in python
+Making all in .
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I/usr/include/python2.7 -I../include -I../include -I../python    -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT libxml.lo -MD -MP -MF .deps/libxml.Tpo -c -o libxml.lo `test -f './libxml.c' || echo './'`./libxml.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I/usr/include/python2.7 -I../include -I../include -I../python -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT libxml.lo -MD -MP -MF .deps/libxml.Tpo -c ./libxml.c -o libxml.o
+./libxml.c:1748:59: warning: unused parameter 'severity' [-Wunused-parameter]
+libxml_xmlValidCtxtGenericErrorFuncHandler(void *ctx, int severity, char *str) 
+                                                          ^
+./libxml.c:1775:61: warning: unused parameter 'severity' [-Wunused-parameter]
+libxml_xmlValidCtxtGenericWarningFuncHandler(void *ctx, int severity, char *str) 
+                                                            ^
+./libxml.c:2677:1: warning: no previous prototype for function 'libxml_xmlNodeRemoveNsDef' [-Wmissing-prototypes]
+libxml_xmlNodeRemoveNsDef(ATTRIBUTE_UNUSED PyObject * self, PyObject * args)
+^
+./libxml.c:2765:9: warning: unused variable 'len' [-Wunused-variable]
+    int len;
+        ^
+4 warnings generated.
+mv -f .deps/libxml.Tpo .deps/libxml.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I/usr/include/python2.7 -I../include -I../include -I../python    -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT types.lo -MD -MP -MF .deps/types.Tpo -c -o types.lo `test -f './types.c' || echo './'`./types.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I/usr/include/python2.7 -I../include -I../include -I../python -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT types.lo -MD -MP -MF .deps/types.Tpo -c ./types.c -o types.o
+mv -f .deps/types.Tpo .deps/types.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I/usr/include/python2.7 -I../include -I../include -I../python    -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT libxml2-py.lo -MD -MP -MF .deps/libxml2-py.Tpo -c -o libxml2-py.lo libxml2-py.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I/usr/include/python2.7 -I../include -I../include -I../python -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT libxml2-py.lo -MD -MP -MF .deps/libxml2-py.Tpo -c libxml2-py.c -o libxml2-py.o
+mv -f .deps/libxml2-py.Tpo .deps/libxml2-py.Plo
+/bin/sh ../libtool --tag=CC   --mode=link gcc  -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -module -avoid-version   -o libxml2mod.la -rpath /opt/mydir/libxml2/linux-gcc3/lib/python2.7/site-packages libxml.lo types.lo libxml2-py.lo ../libxml2.la   -L/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/config -lpython2.7 -ldl -framework CoreFoundation 
+libtool: link: rm -fr  .libs/libxml2mod.a .libs/libxml2mod.la .libs/libxml2mod.lai .libs/libxml2mod.so .libs/libxml2mod.so.dSYM
+libtool: link: ar cru .libs/libxml2mod.a  libxml.o types.o libxml2-py.o
+libtool: link: ranlib .libs/libxml2mod.a
+libtool: link: ( cd ".libs" && rm -f "libxml2mod.la" && ln -s "../libxml2mod.la" "libxml2mod.la" )
+Making all in tests
+make[3]: Nothing to be done for `all'.
