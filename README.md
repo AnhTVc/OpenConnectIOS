@@ -34,3 +34,5 @@ $ git clone https://github.com/AnhTVc/OpenConnectIOS.git
 ```
 ### Contact
 if you are interested, contact me skype: tranvietanh.hust@gmail.com or email: tranvietanh.hust@gmail.com
+
+Do not hesitate, just a small fee I will help you complete the OpenConnect VPN project on IOS
